@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node19" apprev="17926" appversion="6.1.5">
-<preference name="AllowInlineMediaPlayback" value="true" />
+<preference name="AllowsInlineMediaPlayback" value="true" />
   <panorama id="node24" hideabout="1">
     <input height="3954" levelingroll="-2" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3954" levelbiashidpi="1.000" levelingpitch="-2" levelbias="0.400" overlap="1" leveltilesize="510">
       <level height="3954" predecode="0" width="3954" preload="0"/>
