@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.5/17926
 // Filename: Nazareth-Findon.ggsk
-// Generated 2020-07-08T10:11:26
+// Generated 2020-07-08T10:19:40
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
