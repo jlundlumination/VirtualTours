@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.5/17926
 // Filename: Nazareth-Findon.ggsk
-// Generated 2020-07-15T12:18:43
+// Generated 2020-07-15T12:36:53
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -5651,18 +5651,18 @@ function pano2vrSkin(player,base) {
 					me._seekbar_file__playhead.style.left = playheadpos.toString() + 'px';
 					var offsetPercent = Math.round(100.0 * (8 / me._seekbar_file.clientWidth));
 					var currPos = offsetPercent + Math.round(percent * (100 - 2 * offsetPercent));
-					var gradientString ='linear-gradient(90deg, #0094d3 0%, #0094d3 ' + currPos + '%';
+					var gradientString ='linear-gradient(90deg, #deb200 0%, #deb200 ' + currPos + '%';
 					for (var i = 0; i < me._seekbar_file.mediaEl.buffered.length; i++) {
 						var rangeStart = Math.round((me._seekbar_file.mediaEl.buffered.start(i) / me._seekbar_file.mediaEl.duration) * 100.0);
 						var rangeEnd = Math.ceil((me._seekbar_file.mediaEl.buffered.end(i) / me._seekbar_file.mediaEl.duration) * 100.0);
 						if (rangeEnd > currPos) {
 							if (rangeStart < currPos) {
-								gradientString += ', #42bfea ' + currPos + '%';
+								gradientString += ', #deb200 ' + currPos + '%';
 							} else {
 								gradientString += ', #ffffff ' + currPos + '%, #ffffff ' + rangeStart + '%';
-								gradientString += ', #42bfea ' + rangeStart + '%';
+								gradientString += ', #deb200 ' + rangeStart + '%';
 							}
-								gradientString += ', #42bfea ' + rangeEnd + '%';
+								gradientString += ', #deb200 ' + rangeEnd + '%';
 							currPos = rangeEnd;
 						}
 					}
@@ -5676,7 +5676,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._seekbar_file.appendChild(me._seekbar_file__playhead);
 		hs+='background: #ffffff;';
-		hs+='border: 2px solid #0094d3;';
+		hs+='border: 2px solid #deb200;';
 		hs+='border-radius: 8px;';
 		hs+=cssPrefix + 'border-radius: 8px;';
 		var hs_playhead = 'height: 11px;';
