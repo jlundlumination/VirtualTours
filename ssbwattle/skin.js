@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.9/17985
 // Filename: SydneySecondary.ggsk
-// Generated 2020-09-03T12:05:03
+// Generated 2020-09-03T12:07:37
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
@@ -633,7 +633,7 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._screentint);
 		el=me._controller=document.createElement('div');
 		el.ggId="controller";
-		el.ggDx=-2;
+		el.ggDx=-84;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -693,7 +693,7 @@ function pano2vrSkin(player,base) {
 					me._controller.ggUpdatePosition(true);
 				}
 				else {
-					me._controller.ggDx=-2;
+					me._controller.ggDx=-84;
 					me._controller.style.bottom='23px';
 					me._controller.ggUpdatePosition(true);
 				}
