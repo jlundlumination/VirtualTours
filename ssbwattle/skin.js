@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.9/17985
 // Filename: SydneySecondary.ggsk
-// Generated 2020-09-03T11:38:58
+// Generated 2020-09-03T12:05:03
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
@@ -12,7 +12,7 @@ function pano2vrSkin(player,base) {
 	player.addVariable('vis_thumbnail_menu_show', 2, false);
 	player.addVariable('opt_thumbnail_tooltip', 2, false);
 	player.addVariable('opt_projection', 2, false);
-	player.addVariable('opt_gyro', 2, false);
+	player.addVariable('opt_gyro', 2, true);
 	player.addVariable('opt_fullscreen', 2, true);
 	player.addVariable('opt_loader', 2, true);
 	player.addVariable('opt_loader_mulires', 2, true);
@@ -633,7 +633,7 @@ function pano2vrSkin(player,base) {
 		me.divSkin.appendChild(me._screentint);
 		el=me._controller=document.createElement('div');
 		el.ggId="controller";
-		el.ggDx=-165;
+		el.ggDx=-2;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
@@ -645,7 +645,7 @@ function pano2vrSkin(player,base) {
 		hs+='opacity : 0;';
 		hs+='position : absolute;';
 		hs+='visibility : hidden;';
-		hs+='width : 224px;';
+		hs+='width : 198px;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -693,7 +693,7 @@ function pano2vrSkin(player,base) {
 					me._controller.ggUpdatePosition(true);
 				}
 				else {
-					me._controller.ggDx=-165;
+					me._controller.ggDx=-2;
 					me._controller.style.bottom='23px';
 					me._controller.ggUpdatePosition(true);
 				}
@@ -11417,8 +11417,8 @@ function pano2vrSkin(player,base) {
 				me._image_1.ggCurrentLogicStatePosition = newLogicStatePosition;
 				me._image_1.style[domTransition]='left 0s, top 0s, ' + cssPrefix + 'transform 0s';
 				if (me._image_1.ggCurrentLogicStatePosition == 0) {
-					me._image_1.style.left='-50px';
-					me._image_1.style.top='-30px';
+					me._image_1.style.left='0px';
+					me._image_1.style.top='0px';
 				}
 				else {
 					me._image_1.style.left='0px';
@@ -11441,8 +11441,8 @@ function pano2vrSkin(player,base) {
 				me._image_1.ggCurrentLogicStateScaling = newLogicStateScaling;
 				me._image_1.style[domTransition]='left 0s, top 0s, ' + cssPrefix + 'transform 0s';
 				if (me._image_1.ggCurrentLogicStateScaling == 0) {
-					me._image_1.ggParameter.sx = 0.6;
-					me._image_1.ggParameter.sy = 0.6;
+					me._image_1.ggParameter.sx = 0.5;
+					me._image_1.ggParameter.sy = 0.5;
 					me._image_1.style[domTransform]=parameterToTransform(me._image_1.ggParameter);
 				}
 				else {
