@@ -72,7 +72,7 @@
       <polystyle handcursor="1" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0"/>
       <hotspot pan="-315.21" distance3D="662.943" id="Point01" fov="10" skinid="Hotspot 1" customimagewidth="116" use3D="0" customimageheight="94" description="" customimage="media/Arrow3D.png" url="{node7}" target="" tilt="-17.27" title="Library"/>
       <hotspot pan="-145.47" id="Point02" skinid="ht_info" description="Parents and visitors can talk to our friendly admin staff here! We can respond to enquiries about enrollment, finance, school activities and program information, health and safety and anything related to the school and your child. Visitors coming into the school will need to sign in on our electronic system for contact tracing and security measures." url="" target="" tilt="9.93" title="Reception"/>
-      <hotspot pan="-346.04" id="Point03" skinid="ht_image" description="" url="images/Entrance_patch_1.jpg" target="" tilt="7.26" title="1898"/>
+      <hotspot pan="-346.04" id="Point03" skinid="ht_image" description="" url="images/FrontofBuilding.jpg" target="" tilt="7.26" title="1898"/>
     </hotspots>
     <media/>
     <transition enabled="1" softedge="0" zoomfov="20" zoomin="2" zoomspeed="2" type="crossdissolve" zoomoutpause="0" blendtime="1" zoomout="2" blendcolor="0x000000"/>
