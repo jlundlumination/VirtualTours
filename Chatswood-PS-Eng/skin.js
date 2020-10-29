@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.9/17985
 // Filename: ChatswoodPublic.ggsk
-// Generated 2020-10-29T16:35:58
+// Generated 2020-10-29T16:52:32
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -13216,6 +13216,56 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._image_3.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me._image_3.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._image_3.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._image_3.style[domTransition]='left 0s, top 0s, ' + cssPrefix + 'transform 0s';
+				if (me._image_3.ggCurrentLogicStatePosition == 0) {
+					me._image_3.style.left='10px';
+					me._image_3.style.top='5px';
+				}
+				else {
+					me._image_3.style.left='20px';
+					me._image_3.style.top='12px';
+				}
+			}
+		}
+		me._image_3.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				((player.getIsMobile() == true))
+			)
+			{
+				newLogicStateScaling = 0;
+			}
+			else {
+				newLogicStateScaling = -1;
+			}
+			if (me._image_3.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me._image_3.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me._image_3.style[domTransition]='left 0s, top 0s, ' + cssPrefix + 'transform 0s';
+				if (me._image_3.ggCurrentLogicStateScaling == 0) {
+					me._image_3.ggParameter.sx = 0.6;
+					me._image_3.ggParameter.sy = 0.6;
+					me._image_3.style[domTransform]=parameterToTransform(me._image_3.ggParameter);
+				}
+				else {
+					me._image_3.ggParameter.sx = 1;
+					me._image_3.ggParameter.sy = 1;
+					me._image_3.style[domTransform]=parameterToTransform(me._image_3.ggParameter);
+				}
+			}
+		}
 		me._image_3.onclick=function (e) {
 			player.openUrl("https:\/\/chatswood-p.schools.nsw.gov.au\/","");
 		}
@@ -14919,16 +14969,6 @@ function pano2vrSkin(player,base) {
 			for(i = 0; i < hotspotTemplates['Hotspot 1'].length; i++) {
 				if (hotspotTemplates['Hotspot 1'][i]._hotspot_1_customimage && hotspotTemplates['Hotspot 1'][i]._hotspot_1_customimage.logicBlock_visible) {
 					hotspotTemplates['Hotspot 1'][i]._hotspot_1_customimage.logicBlock_visible();
-				}
-			}
-		}
-	}
-	me.callChildLogicBlocksHotspot_hotspot_1_configloaded = function(){
-		if(hotspotTemplates['Hotspot 1']) {
-			var i;
-			for(i = 0; i < hotspotTemplates['Hotspot 1'].length; i++) {
-				if (hotspotTemplates['Hotspot 1'][i]._hotspot_1.logicBlock_visible) {
-					hotspotTemplates['Hotspot 1'][i]._hotspot_1.logicBlock_visible();
 				}
 			}
 		}
@@ -19133,30 +19173,6 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
-		me._hotspot_1.logicBlock_visible = function() {
-			var newLogicStateVisible;
-			if (
-				((player.getIsMobile() == true))
-			)
-			{
-				newLogicStateVisible = 0;
-			}
-			else {
-				newLogicStateVisible = -1;
-			}
-			if (me._hotspot_1.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._hotspot_1.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._hotspot_1.style[domTransition]='';
-				if (me._hotspot_1.ggCurrentLogicStateVisible == 0) {
-					me._hotspot_1.style.visibility="hidden";
-					me._hotspot_1.ggVisible=false;
-				}
-				else {
-					me._hotspot_1.style.visibility=(Number(me._hotspot_1.style.opacity)>0||!me._hotspot_1.style.opacity)?'inherit':'hidden';
-					me._hotspot_1.ggVisible=true;
-				}
-			}
-		}
 		me._hotspot_1.onclick=function (e) {
 			player.openNext("{"+player.getNextNode()+"}","");
 			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
@@ -20229,7 +20245,6 @@ function pano2vrSkin(player,base) {
 			}
 			hotspotTemplates[hotspot.skinid].push(hsinst);
 			me.callChildLogicBlocksHotspot_hotspot_1_changenode();;
-			me.callChildLogicBlocksHotspot_hotspot_1_configloaded();;
 			me.callChildLogicBlocksHotspot_hotspot_1_mouseover();;
 			me.callChildLogicBlocksHotspot_hotspot_1_mouseover();;
 			me.callChildLogicBlocksHotspot_hotspot_1_activehotspotchanged();;
@@ -21108,6 +21123,8 @@ function pano2vrSkin(player,base) {
 	me._buttons.logicBlock_scaling();
 	me._popup_video_vimeo.logicBlock_size();
 	me._close.logicBlock_position();
+	me._image_3.logicBlock_position();
+	me._image_3.logicBlock_scaling();
 	me._enter_vr.logicBlock_visible();
 	me._korean.logicBlock_visible();
 	me._mandarin.logicBlock_visible();
@@ -21115,7 +21132,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('fullscreenenter', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha(); });
 	player.addListener('fullscreenexit', function(args) { me._fullscreen.logicBlock_alpha();me._fullscreen_off.logicBlock_alpha(); });
 	player.addListener('changenode', function(args) { me._menu_button.logicBlock_position();me._screentint.logicBlock_alpha();me._controller.logicBlock_position();me._controller.logicBlock_alpha();me._controller_bg.logicBlock_position();me._controller_bg.logicBlock_size();me._controller_bg.logicBlock_visible();me._controller_slider.logicBlock_position();me._controller_slider.logicBlock_alpha();me._enter_vr.logicBlock_position();me._gyro.logicBlock_position();me._gyro.logicBlock_visible();me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha();me._fullscreen_buttons.logicBlock_position();me._fullscreen_buttons.logicBlock_visible();me._autorotate_start.logicBlock_visible();me._autorotate_stop.logicBlock_visible();me._zoomout.logicBlock_visible();me._zoomin.logicBlock_visible();me._thumbnail_menu.logicBlock_position();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu.logicBlock_alpha();me._thumbnail_menu_mobile.logicBlock_position();me._thumbnail_menu_mobile.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_alpha();me._web_page.logicBlock_visible();me._loading.logicBlock_visible();me._userdata.logicBlock_visible();me._information.logicBlock_visible();me._information.logicBlock_alpha();me._video_popup_file.logicBlock_visible();me._popup_video_file.logicBlock_visible();me._video_popup_controls_file.logicBlock_visible();me._video_popup_url.logicBlock_visible();me._popup_video_url.logicBlock_visible();me._video_popup_youtube.logicBlock_visible();me._popup_video_youtube.logicBlock_visible();me._video_popup_controls_url.logicBlock_visible();me._image_popup.logicBlock_visible();me._popup_image.logicBlock_visible();me.__360image_gyro.logicBlock_visible();me.__360image.logicBlock_position();me.__360image.logicBlock_scaling();me._phone2.logicBlock_scaling();me._phone3.logicBlock_scaling();me._side_nav.logicBlock_position();me._side_nav.logicBlock_alpha();me._svg_1.logicBlock_visible();me._menu_closed.logicBlock_visible();me._menu_open.logicBlock_visible();me._video_popup_vimeo.logicBlock_visible();me._popup_video_vimeo.logicBlock_visible();me._close.logicBlock_visible(); });
-	player.addListener('configloaded', function(args) { me._map_1.logicBlock_visible();me._controller.logicBlock_position();me._gyro.logicBlock_visible();me._fullscreen_buttons.logicBlock_visible();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_visible();me._instructions0.logicBlock_scaling();me._information.logicBlock_scaling();me._info_text_body.logicBlock_scaling();me._ht_info_close.logicBlock_size();me._ht_info_close.logicBlock_scaling();me._video_popup_file.logicBlock_size();me._video_popup_youtube.logicBlock_size();me._image_popup.logicBlock_size();me.__360image_gyro.logicBlock_visible();me._side_nav.logicBlock_position();me._side_nav.logicBlock_size();me._side_nav.logicBlock_scaling();me._side_nav.logicBlock_visible();me._scrollarea_1.logicBlock_size();me._bush_campus.logicBlock_position();me._kindergarten.logicBlock_position();me._hall.logicBlock_position();me._five.logicBlock_position();me._six.logicBlock_position();me._four.logicBlock_position();me._three.logicBlock_position();me._two.logicBlock_position();me._one.logicBlock_position();me._menu_closed.logicBlock_visible();me._menu_open.logicBlock_position();me._menu_open.logicBlock_scaling();me._menu_open.logicBlock_visible();me._buttons.logicBlock_position();me._buttons.logicBlock_scaling();me._popup_video_vimeo.logicBlock_size();me._close.logicBlock_position(); });
+	player.addListener('configloaded', function(args) { me._map_1.logicBlock_visible();me._controller.logicBlock_position();me._gyro.logicBlock_visible();me._fullscreen_buttons.logicBlock_visible();me._thumbnail_menu.logicBlock_visible();me._thumbnail_menu_mobile.logicBlock_visible();me._instructions0.logicBlock_scaling();me._information.logicBlock_scaling();me._info_text_body.logicBlock_scaling();me._ht_info_close.logicBlock_size();me._ht_info_close.logicBlock_scaling();me._video_popup_file.logicBlock_size();me._video_popup_youtube.logicBlock_size();me._image_popup.logicBlock_size();me.__360image_gyro.logicBlock_visible();me._side_nav.logicBlock_position();me._side_nav.logicBlock_size();me._side_nav.logicBlock_scaling();me._side_nav.logicBlock_visible();me._scrollarea_1.logicBlock_size();me._bush_campus.logicBlock_position();me._kindergarten.logicBlock_position();me._hall.logicBlock_position();me._five.logicBlock_position();me._six.logicBlock_position();me._four.logicBlock_position();me._three.logicBlock_position();me._two.logicBlock_position();me._one.logicBlock_position();me._menu_closed.logicBlock_visible();me._menu_open.logicBlock_position();me._menu_open.logicBlock_scaling();me._menu_open.logicBlock_visible();me._buttons.logicBlock_position();me._buttons.logicBlock_scaling();me._popup_video_vimeo.logicBlock_size();me._close.logicBlock_position();me._image_3.logicBlock_position();me._image_3.logicBlock_scaling(); });
 	player.addListener('gyroavailable', function(args) { me._gyro.logicBlock_visible(); });
 	player.addListener('gyrochanged', function(args) { me._gyro_on.logicBlock_alpha();me._gyro_off.logicBlock_alpha(); });
 	player.addListener('vrchanged', function(args) { me._enter_vr.logicBlock_visible();me._korean.logicBlock_visible();me._mandarin.logicBlock_visible(); });
@@ -21153,7 +21170,7 @@ function pano2vrSkin(player,base) {
 	player.addListener('activehotspotchanged', function(args) { me._thumbnail_cloner.callChildLogicBlocks_activehotspotchanged();me._thumbnail_cloner_mobile.callChildLogicBlocks_activehotspotchanged(); });
 	player.addListener('varchanged_opt_thumbnail_tooltip', function(args) { me._thumbnail_cloner.callChildLogicBlocks_varchanged_opt_thumbnail_tooltip();me._thumbnail_cloner_mobile.callChildLogicBlocks_varchanged_opt_thumbnail_tooltip(); });
 	player.addListener('changenode', function(args) { me.callChildLogicBlocksHotspot_ht_video_youtube_changenode();me.callChildLogicBlocksHotspot_ht_node_1_changenode();me.callChildLogicBlocksHotspot_ht_video_vimeo_changenode();me.callChildLogicBlocksHotspot_ht_video_url_changenode();me.callChildLogicBlocksHotspot_ht_video_file_changenode();me.callChildLogicBlocksHotspot_ht_image_changenode();me.callChildLogicBlocksHotspot_ht_info_changenode();me.callChildLogicBlocksHotspot_ht_url_changenode();me.callChildLogicBlocksHotspot_hotspot_1_changenode();me.callChildLogicBlocksHotspot_ht_node_changenode(); });
-	player.addListener('configloaded', function(args) { me.callChildLogicBlocksHotspot_ht_video_youtube_configloaded();me.callChildLogicBlocksHotspot_ht_video_vimeo_configloaded();me.callChildLogicBlocksHotspot_ht_video_url_configloaded();me.callChildLogicBlocksHotspot_ht_video_file_configloaded();me.callChildLogicBlocksHotspot_ht_image_configloaded();me.callChildLogicBlocksHotspot_ht_info_configloaded();me.callChildLogicBlocksHotspot_ht_url_configloaded();me.callChildLogicBlocksHotspot_hotspot_1_configloaded();me.callChildLogicBlocksHotspot_ht_node_configloaded(); });
+	player.addListener('configloaded', function(args) { me.callChildLogicBlocksHotspot_ht_video_youtube_configloaded();me.callChildLogicBlocksHotspot_ht_video_vimeo_configloaded();me.callChildLogicBlocksHotspot_ht_video_url_configloaded();me.callChildLogicBlocksHotspot_ht_video_file_configloaded();me.callChildLogicBlocksHotspot_ht_image_configloaded();me.callChildLogicBlocksHotspot_ht_info_configloaded();me.callChildLogicBlocksHotspot_ht_url_configloaded();me.callChildLogicBlocksHotspot_ht_node_configloaded(); });
 	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_ht_video_youtube_mouseover();me.callChildLogicBlocksHotspot_ht_video_vimeo_mouseover();me.callChildLogicBlocksHotspot_ht_video_url_mouseover();me.callChildLogicBlocksHotspot_ht_video_file_mouseover();me.callChildLogicBlocksHotspot_ht_image_mouseover();me.callChildLogicBlocksHotspot_ht_info_mouseover();me.callChildLogicBlocksHotspot_ht_url_mouseover();me.callChildLogicBlocksHotspot_hotspot_1_mouseover();me.callChildLogicBlocksHotspot_ht_node_mouseover(); });
 	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_ht_video_youtube_mouseover();me.callChildLogicBlocksHotspot_ht_node_1_mouseover();me.callChildLogicBlocksHotspot_ht_video_vimeo_mouseover();me.callChildLogicBlocksHotspot_ht_video_url_mouseover();me.callChildLogicBlocksHotspot_ht_video_file_mouseover();me.callChildLogicBlocksHotspot_ht_image_mouseover();me.callChildLogicBlocksHotspot_ht_info_mouseover();me.callChildLogicBlocksHotspot_ht_url_mouseover();me.callChildLogicBlocksHotspot_hotspot_1_mouseover();me.callChildLogicBlocksHotspot_ht_node_mouseover(); });
 	player.addListener('changevisitednodes', function(args) { me.callChildLogicBlocksHotspot_ht_node_changevisitednodes(); });
