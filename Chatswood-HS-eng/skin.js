@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.9/17985
 // Filename: ChatswoodHS-Redesign.ggsk
-// Generated 2020-11-11T09:22:44
+// Generated 2020-11-11T09:25:43
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
