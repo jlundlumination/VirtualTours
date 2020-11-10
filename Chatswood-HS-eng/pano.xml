@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="17985" appversion="6.1.9" start="node12">
+  <panorama id="node12">
+    <input height="2048" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="2048" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="2048" predecode="0" width="2048" preload="0"/>
+      <level height="1024" predecode="0" width="1024" preload="0"/>
+      <level height="512" predecode="0" width="512" preload="0"/>
+      <level height="256" predecode="1" width="256" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-42.21" pan="135.15" projection="4" fov="71.92"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node12" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="22/10/2020 2:24 PM" longitude="151.175604" comment="" title="Aerial View" description="" altitude="141.00" author="" latitude="-33.800118"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-19.7" pan="-232.93" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Entrance" description="" url="{node1}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="-27.770" pansize="10.000" pan="-206.420" loop="1" mode="1" id="Welcome-VO" nodechangekeep="0" tiltsize="10.000" level="1.000" startmutedmobile="0">
+        <source url="media/12. Ophelia - Aerial View - Welcome.mp3.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input height="3310" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3310" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="1">
+      <level height="3310" predecode="0" width="3310" preload="0"/>
+      <level height="1655" predecode="0" width="1655" preload="0"/>
+      <level height="827" predecode="0" width="827" preload="0"/>
+      <level height="413" predecode="1" width="413" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="8.77" pan="18.13" projection="4" fov="72.46"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node1" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:15 PM" longitude="" comment="" title="Entrance" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-7.89" pan="-354.88" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Front Office" description="" url="{node2}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="5.860" pansize="10.000" pan="-334.760" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.800" startmutedmobile="0">
+        <source url="media/1. Archie - School Entrance.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="3371" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3371" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="3371" predecode="0" width="3371" preload="0"/>
+      <level height="1685" predecode="0" width="1685" preload="0"/>
+      <level height="842" predecode="0" width="842" preload="0"/>
+      <level height="421" predecode="1" width="421" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-14.03" pan="157.68" projection="4" fov="72.46"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node2" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:22 PM" longitude="" comment="" title="Front Office" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-6.73" pan="-304.12" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Library" description="" url="{node6}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="0.000" pansize="10.000" pan="-202.980" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.800" startmutedmobile="0">
+        <source url="media/9. Ria - Front Office.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input height="3289" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3289" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="3">
+      <level height="3289" predecode="0" width="3289" preload="0"/>
+      <level height="1644" predecode="0" width="1644" preload="0"/>
+      <level height="822" predecode="0" width="822" preload="0"/>
+      <level height="411" predecode="1" width="411" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-9.87" pan="-11.2" projection="4" fov="79.52"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node6" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:28 PM" longitude="" comment="" title="Library" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-15.07" pan="-205.6" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Science" description="" url="{node10}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="1.490" pansize="10.000" pan="-175.090" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.800" startmutedmobile="0">
+        <source url="media/8. James C - Library.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input height="3318" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3318" levelingpitch="3" leveltilesize="510" overlap="1" levelingroll="4">
+      <level height="3318" predecode="0" width="3318" preload="0"/>
+      <level height="1659" predecode="0" width="1659" preload="0"/>
+      <level height="829" predecode="0" width="829" preload="0"/>
+      <level height="414" predecode="1" width="414" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-8.99" pan="-26.57" projection="4" fov="79.52"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node10" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 5:16 PM" longitude="" comment="" title="Science" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-4.42" pan="-41.31" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="K-Block" description="" url="{node4}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="-2.100" pansize="10.000" pan="-188.990" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="1.000" startmutedmobile="0">
+        <source url="media/10. Anniki - Science Lab.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="3328" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3328" levelingpitch="1" leveltilesize="510" overlap="1" levelingroll="1">
+      <level height="3328" predecode="0" width="3328" preload="0"/>
+      <level height="1664" predecode="0" width="1664" preload="0"/>
+      <level height="832" predecode="0" width="832" preload="0"/>
+      <level height="416" predecode="1" width="416" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-5.11" pan="-69.26" projection="4" fov="79.52"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node4" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:52 PM" longitude="" comment="" title="K-Block" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-8.23" pan="-105.04" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Gym" description="" url="{node3}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="-6.140" pansize="10.000" pan="-168.680" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.800" startmutedmobile="0">
+        <source url="media/7. Archie - K-Block Outdoor Area.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="3304" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3304" levelingpitch="1" leveltilesize="510" overlap="1" levelingroll="1">
+      <level height="3304" predecode="0" width="3304" preload="0"/>
+      <level height="1652" predecode="0" width="1652" preload="0"/>
+      <level height="826" predecode="0" width="826" preload="0"/>
+      <level height="413" predecode="1" width="413" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-8.76" pan="95.83" projection="4" fov="79.52"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node3" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 5:10 PM" longitude="" comment="" title="Gym" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-2.29" pan="-223.84" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="The Arts" description="" url="{node8}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="-12.470" pansize="10.000" pan="-163.780" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="1.000" startmutedmobile="0">
+        <source url="media/4. Anniki - Gym Area.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input height="3391" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3391" levelingpitch="-1" leveltilesize="510" overlap="1" levelingroll="2">
+      <level height="3391" predecode="0" width="3391" preload="0"/>
+      <level height="1695" predecode="0" width="1695" preload="0"/>
+      <level height="847" predecode="0" width="847" preload="0"/>
+      <level height="423" predecode="1" width="423" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-10.91" pan="-78.94" projection="4" fov="79.52"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node8" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 5:21 PM" longitude="" comment="" title="Music" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-8.35" pan="-113.29" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Main Quad" description="" url="{node7}" skinid="Hotspot 1" fov="10"/>
+      <hotspot tilt="-3.58" pan="-91.56" target="" id="Point02" title="Visual Arts" description="" url="images/Art-room.jpg" skinid="ht_image"/>
+      <hotspot tilt="-1.75" pan="-76.58" target="" id="Point03" title="Music Program" description="" url="YfssBuhdg50" skinid="ht_video_youtube"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="1.890" pansize="10.000" pan="-174.910" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="1.000" startmutedmobile="0">
+        <source url="media/11. James B - Music Classroom.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input height="3318" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3318" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="2">
+      <level height="3318" predecode="0" width="3318" preload="0"/>
+      <level height="1659" predecode="0" width="1659" preload="0"/>
+      <level height="829" predecode="0" width="829" preload="0"/>
+      <level height="414" predecode="1" width="414" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-3.81" pan="-90.02" projection="4" fov="87.11"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node7" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:09 PM" longitude="" comment="" title="Main Quad" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-2" pan="-44.41" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Food Tech" description="" url="{node5}" skinid="ht_node" fov="10"/>
+      <hotspot tilt="-3.69" pan="-100.39" target="" id="Point02" title="Canteen" description="" url="images/Canteen.jpg" skinid="ht_image"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="2.600" pansize="10.000" pan="-77.900" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.900" startmutedmobile="0">
+        <source url="media/3. Ria - Quad.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="3315" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3315" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="3315" predecode="0" width="3315" preload="0"/>
+      <level height="1657" predecode="0" width="1657" preload="0"/>
+      <level height="828" predecode="0" width="828" preload="0"/>
+      <level height="414" predecode="1" width="414" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-15.27" pan="-144.69" projection="4" fov="87.11"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node5" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:57 PM" longitude="" comment="" title="Kitchen" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-8.82" pan="-133.75" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="TAS Workshop" description="" url="{node11}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="4.740" pansize="10.000" pan="-100.120" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="1.000" startmutedmobile="0">
+        <source url="media/6. Ophelia -Kitchen.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input height="5514" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="5514" levelingpitch="0" leveltilesize="510" overlap="1" levelingroll="2">
+      <level height="5514" predecode="0" width="5514" preload="0"/>
+      <level height="2757" predecode="0" width="2757" preload="0"/>
+      <level height="1378" predecode="0" width="1378" preload="0"/>
+      <level height="689" predecode="0" width="689" preload="0"/>
+      <level height="344" predecode="1" width="344" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-10.53" pan="-25" projection="4" fov="87.11"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node11" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 6:03 PM" longitude="" comment="" title="Workshop" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="-17.34" pan="-77.51" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Oval" description="" url="{node9}" skinid="Hotspot 1" fov="10"/>
+      <hotspot tilt="1.83" pan="-92.18" target="" id="Point02" title="Computing room" description="" url="images/Computing-room.jpg" skinid="ht_image"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="7.210" pansize="10.000" pan="-77.960" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.900" startmutedmobile="0">
+        <source url="media/5. James B - Workshop.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input height="3321" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" width="3321" levelingpitch="-2" leveltilesize="510" overlap="1" levelingroll="-1">
+      <level height="3321" predecode="0" width="3321" preload="0"/>
+      <level height="1660" predecode="0" width="1660" preload="0"/>
+      <level height="830" predecode="0" width="830" preload="0"/>
+      <level height="415" predecode="1" width="415" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="9.77" pan="-146.11" projection="4" fov="74.59"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max tilt="90" scaletofit="1" pan="360" fovstereographic="270" fovfisheye="360" fov="120"/>
+    </view>
+    <userdata source="" info="" nodeid="node9" tags="Chatswood High School" heading="0" copyright="" customnodeid="" datetime="24/04/2017 4:44 PM" longitude="" comment="" title="Oval" description="" author="" latitude=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label height="20" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderalpha="1" textcolor="0x000000" enabled="1" width="180" border="1" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" background="1"/>
+      <polystyle backgroundalpha="0.25098" bordercolor="0x0000ff" borderalpha="1" handcursor="1" mode="0" backgroundcolor="0x0000ff"/>
+      <hotspot customimage="media/Arrow3D.png" tilt="3.69" pan="-75.06" distance3D="662.943" use3D="0" target="" customimagewidth="116" id="Point01" customimageheight="94" title="Aerial View" description="" url="{node12}" skinid="Hotspot 1" fov="10"/>
+    </hotspots>
+    <media>
+      <sound field="90.000" ambientlevel="0.000" tilt="7.980" pansize="10.000" pan="-109.410" loop="1" mode="1" id="Element01" nodechangekeep="0" tiltsize="10.000" level="0.900" startmutedmobile="0">
+        <source url="media/2. James C - Oval and Outdoor Learning Areas.mp3"/>
+      </sound>
+    </media>
+    <transition zoomspeed="2" zoomin="2" zoomout="2" softedge="0" zoomoutpause="0" enabled="1" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomfov="20"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedkeyboard="0" lockedkeyboardzoom="0" lockedwheel="0" hideabout="0" rubberband="0" invertwheel="0" sensitivity="8" simulatemass="1" contextfullscreen="1" dblclickfullscreen="0" speedwheel="1" invertcontrol="1" lockedmouse="0" contextprojections="0"/>
+  </panorama>
+  <masternode>
+    <userdata source="" info="" nodeid="master" tags="" heading="0" copyright="" customnodeid="" datetime="" longitude="" comment="" title="" description="" author="" latitude=""/>
+  </masternode>
+</tour>
