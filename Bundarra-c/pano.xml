@@ -9,16 +9,16 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start pan="-10.54" projection="4" fov="74.18" tilt="-42.19"/>
-      <flyin pan="0" projection="9" fov="170" tilt="-90"/>
+      <start pan="-7.57" projection="4" fov="74.18" tilt="-45.28"/>
+      <flyin pan="90" projection="9" fov="170" tilt="-90"/>
       <min pan="0" fovpixel="2" tilt="-90"/>
       <max fovstereographic="270" pan="360" fovfisheye="360" scaletofit="1" fov="120" tilt="90"/>
     </view>
-    <userdata author="" comment="" customnodeid="" longitude="151.077064" title="Aerial View" copyright="" altitude="722.00" heading="0" description="" source="" tags="OG" datetime="1/01/1970 12:00 AM" nodeid="node18" latitude="-30.167879" info=""/>
+    <userdata author="" comment="" customnodeid="" longitude="151.077064" title="Aerial View" copyright="" altitude="722.00" heading="0" description="" source="" tags="Bundarra" datetime="3/11/2020 8:21 PM" nodeid="node18" latitude="-30.167879" info=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label background="1" textalpha="1" border="1" enabled="1" width="180" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot use3D="0" target="" pan="-323.23" id="Point01" customimageheight="94" title="Entrance" description="" customimage="media/Arrow3D.png" distance3D="662.943" url="{node11}" skinid="Hotspot 1" customimagewidth="116" fov="10" tilt="-38.33"/>
+      <hotspot use3D="0" target="" pan="-322.61" id="Point01" customimageheight="94" title="Entrance" description="" customimage="media/Arrow3D.png" distance3D="662.943" url="{node11}" skinid="Hotspot 1" customimagewidth="116" fov="10" tilt="-39.53"/>
     </hotspots>
     <media/>
     <transition zoomin="2" zoomoutpause="0" blendtime="1" enabled="1" zoomfov="20" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomspeed="2" zoomout="2"/>
@@ -450,7 +450,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label background="1" textalpha="1" border="1" enabled="1" width="180" textcolor="0x000000" height="20" borderradius="1" wordwrap="1" bordercolor="0x000000" backgroundalpha="1" borderalpha="1" backgroundcolor="0xffffff"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot use3D="0" target="" pan="-123.85" id="Point01" customimageheight="94" title="" description="" customimage="media/Arrow3D.png" distance3D="662.943" url="{node18}" skinid="Hotspot 1" customimagewidth="116" fov="10" tilt="2.22"/>
+      <hotspot use3D="0" target="" pan="-133.92" id="Point01" customimageheight="94" title="Aerial View" description="" customimage="media/Arrow3D.png" distance3D="662.943" url="{node18}" skinid="Hotspot 1" customimagewidth="116" fov="10" tilt="2.84"/>
     </hotspots>
     <media/>
     <transition zoomin="2" zoomoutpause="0" blendtime="1" enabled="1" zoomfov="20" softedge="0" type="crossdissolve" blendcolor="0x000000" zoomspeed="2" zoomout="2"/>
