@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.9" apprev="17985" start="node12">
+  <panorama id="node12">
+    <input leveltilesize="510" width="2048" levelbias="0.400" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2048" overlap="1">
+      <level preload="0" predecode="0" width="2048" height="2048"/>
+      <level preload="0" predecode="0" width="1024" height="1024"/>
+      <level preload="0" predecode="0" width="512" height="512"/>
+      <level preload="1" predecode="1" width="256" height="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="135.15" tilt="-42.21" fov="71.92" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="-33.800118" copyright="" source="" heading="0" author="" info="" altitude="141.00" description="" title="鸟瞰图" tags="Chatswood High School" customnodeid="" longitude="151.175604" datetime="22/10/2020 2:24 PM" comment="" nodeid="node12"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-232.93" url="{node1}" skinid="Hotspot 1" tilt="-19.7" fov="10" description="" customimageheight="94" use3D="0" title="入口" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="1.000" mode="1" pan="-206.420" tilt="-27.770" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Welcome-VO" tiltsize="10.000" loop="1">
+        <source url="media/Aerial View Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node1">
+    <input leveltilesize="510" width="3310" levelbias="0.400" levelingpitch="0" levelingroll="1" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3310" overlap="1">
+      <level preload="0" predecode="0" width="3310" height="3310"/>
+      <level preload="0" predecode="0" width="1655" height="1655"/>
+      <level preload="0" predecode="0" width="827" height="827"/>
+      <level preload="1" predecode="1" width="413" height="413"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="18.13" tilt="8.77" fov="72.46" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="入口" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:15 PM" comment="" nodeid="node1"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-354.88" url="{node2}" skinid="Hotspot 1" tilt="-7.89" fov="10" description="" customimageheight="94" use3D="0" title="前厅" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="0.800" mode="1" pan="-334.760" tilt="5.860" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Entrance Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input leveltilesize="510" width="3371" levelbias="0.400" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3371" overlap="1">
+      <level preload="0" predecode="0" width="3371" height="3371"/>
+      <level preload="0" predecode="0" width="1685" height="1685"/>
+      <level preload="0" predecode="0" width="842" height="842"/>
+      <level preload="1" predecode="1" width="421" height="421"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="157.68" tilt="-14.03" fov="72.46" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="前厅" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:22 PM" comment="" nodeid="node2"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-304.12" url="{node6}" skinid="Hotspot 1" tilt="-6.73" fov="10" description="" customimageheight="94" use3D="0" title="图书馆" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="0.800" mode="1" pan="-202.980" tilt="0.000" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Front Office Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input leveltilesize="510" width="3289" levelbias="0.400" levelingpitch="0" levelingroll="3" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3289" overlap="1">
+      <level preload="0" predecode="0" width="3289" height="3289"/>
+      <level preload="0" predecode="0" width="1644" height="1644"/>
+      <level preload="0" predecode="0" width="822" height="822"/>
+      <level preload="1" predecode="1" width="411" height="411"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-11.2" tilt="-9.87" fov="79.52" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="图书馆" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:28 PM" comment="" nodeid="node6"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-205.6" url="{node10}" skinid="Hotspot 1" tilt="-15.07" fov="10" description="" customimageheight="94" use3D="0" title="科学" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="0.800" mode="1" pan="-175.090" tilt="1.490" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Library Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node10">
+    <input leveltilesize="510" width="3318" levelbias="0.400" levelingpitch="3" levelingroll="4" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3318" overlap="1">
+      <level preload="0" predecode="0" width="3318" height="3318"/>
+      <level preload="0" predecode="0" width="1659" height="1659"/>
+      <level preload="0" predecode="0" width="829" height="829"/>
+      <level preload="1" predecode="1" width="414" height="414"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-26.57" tilt="-8.99" fov="79.52" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="科学" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 5:16 PM" comment="" nodeid="node10"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-41.31" url="{node8}" skinid="Hotspot 1" tilt="-4.42" fov="10" description="" customimageheight="94" use3D="0" title="音乐" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="1.000" mode="1" pan="-188.990" tilt="-2.100" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Science Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node8">
+    <input leveltilesize="510" width="3391" levelbias="0.400" levelingpitch="-1" levelingroll="2" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3391" overlap="1">
+      <level preload="0" predecode="0" width="3391" height="3391"/>
+      <level preload="0" predecode="0" width="1695" height="1695"/>
+      <level preload="0" predecode="0" width="847" height="847"/>
+      <level preload="1" predecode="1" width="423" height="423"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-78.94" tilt="-10.91" fov="79.52" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="音乐" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 5:21 PM" comment="" nodeid="node8"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-113.29" url="{node7}" skinid="Hotspot 1" tilt="-8.35" fov="10" description="" customimageheight="94" use3D="0" title="主四边形" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+      <hotspot pan="-91.56" url="images/Art-room.jpg" skinid="ht_image" tilt="-3.58" description="" title="视觉艺术" target="" id="Point02"/>
+      <hotspot pan="-76.58" url="zsgrtxsaHV4" skinid="ht_video_youtube" tilt="-1.75" description="" title="音乐节目" target="" id="Point03"/>
+    </hotspots>
+    <media>
+      <sound level="1.000" mode="1" pan="-174.910" tilt="1.890" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Music Room Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node7">
+    <input leveltilesize="510" width="3318" levelbias="0.400" levelingpitch="0" levelingroll="2" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3318" overlap="1">
+      <level preload="0" predecode="0" width="3318" height="3318"/>
+      <level preload="0" predecode="0" width="1659" height="1659"/>
+      <level preload="0" predecode="0" width="829" height="829"/>
+      <level preload="1" predecode="1" width="414" height="414"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-90.02" tilt="-3.81" fov="87.11" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="主四边形" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:09 PM" comment="" nodeid="node7"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-43.01" url="{node4}" skinid="ht_node" tilt="-3.4" fov="10" description="" customimageheight="94" use3D="0" title="K区" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+      <hotspot pan="-100.39" url="images/Canteen.jpg" skinid="ht_image" tilt="-3.69" description="" title="食堂" target="" id="Point02"/>
+      <hotspot pan="-59.56" url="iD186F4yiaE" skinid="ht_video_youtube" tilt="-3.46" description="" title="舞蹈练习" target="" id="Point03"/>
+    </hotspots>
+    <media>
+      <sound level="0.900" mode="1" pan="-50.030" tilt="12.760" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Quad Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input leveltilesize="510" width="3328" levelbias="0.400" levelingpitch="1" levelingroll="1" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3328" overlap="1">
+      <level preload="0" predecode="0" width="3328" height="3328"/>
+      <level preload="0" predecode="0" width="1664" height="1664"/>
+      <level preload="0" predecode="0" width="832" height="832"/>
+      <level preload="1" predecode="1" width="416" height="416"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-69.26" tilt="-5.11" fov="79.52" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="K区" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:52 PM" comment="" nodeid="node4"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-160.17" url="{node11}" skinid="Hotspot 1" tilt="-8.49" fov="10" description="" customimageheight="94" use3D="0" title="作坊" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="0.800" mode="1" pan="-168.680" tilt="-6.140" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/K Block Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input leveltilesize="510" width="5514" levelbias="0.400" levelingpitch="0" levelingroll="2" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="5514" overlap="1">
+      <level preload="0" predecode="0" width="5514" height="5514"/>
+      <level preload="0" predecode="0" width="2757" height="2757"/>
+      <level preload="0" predecode="0" width="1378" height="1378"/>
+      <level preload="0" predecode="0" width="689" height="689"/>
+      <level preload="1" predecode="1" width="344" height="344"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-25" tilt="-10.53" fov="87.11" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="作坊" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 6:03 PM" comment="" nodeid="node11"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-77.36" url="{node5}" skinid="Hotspot 1" tilt="-15.65" fov="10" description="" customimageheight="95" use3D="0" title="厨房" target="" customimage="media/Arrow-down.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+      <hotspot pan="-92.18" url="images/Computing-room.jpg" skinid="ht_image" tilt="1.83" description="" title="Computing room" target="" id="Point02"/>
+    </hotspots>
+    <media>
+      <sound level="0.900" mode="1" pan="-77.960" tilt="7.210" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Workshop Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input leveltilesize="510" width="3315" levelbias="0.400" levelingpitch="0" levelingroll="0" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3315" overlap="1">
+      <level preload="0" predecode="0" width="3315" height="3315"/>
+      <level preload="0" predecode="0" width="1657" height="1657"/>
+      <level preload="0" predecode="0" width="828" height="828"/>
+      <level preload="1" predecode="1" width="414" height="414"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-144.69" tilt="-15.27" fov="87.11" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="厨房" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:57 PM" comment="" nodeid="node5"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-133.75" url="{node3}" skinid="Hotspot 1" tilt="-8.82" fov="10" description="" customimageheight="94" use3D="0" title="健身房" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="1.000" mode="1" pan="-100.120" tilt="4.740" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Kitchen Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input leveltilesize="510" width="3304" levelbias="0.400" levelingpitch="1" levelingroll="1" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3304" overlap="1">
+      <level preload="0" predecode="0" width="3304" height="3304"/>
+      <level preload="0" predecode="0" width="1652" height="1652"/>
+      <level preload="0" predecode="0" width="826" height="826"/>
+      <level preload="1" predecode="1" width="413" height="413"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="95.83" tilt="-8.76" fov="79.52" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="健身房" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 5:10 PM" comment="" nodeid="node3"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-223.84" url="{node9}" skinid="Hotspot 1" tilt="-2.29" fov="10" description="" customimageheight="94" use3D="0" title="椭圆" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="1.000" mode="1" pan="-163.780" tilt="-12.470" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Gym Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node9">
+    <input leveltilesize="510" width="3321" levelbias="0.400" levelingpitch="-2" levelingroll="-1" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="3321" overlap="1">
+      <level preload="0" predecode="0" width="3321" height="3321"/>
+      <level preload="0" predecode="0" width="1660" height="1660"/>
+      <level preload="0" predecode="0" width="830" height="830"/>
+      <level preload="1" predecode="1" width="415" height="415"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="-146.11" tilt="9.77" fov="74.59" projection="4"/>
+      <flyin pan="0" tilt="-90" fov="170" projection="9"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="椭圆" tags="Chatswood High School" customnodeid="" longitude="" datetime="24/04/2017 4:44 PM" comment="" nodeid="node9"/>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label wordwrap="1" backgroundalpha="1" bordercolor="0x000000" textalpha="1" borderradius="1" width="180" borderalpha="1" textcolor="0x000000" border="1" enabled="1" height="20" background="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" backgroundalpha="0.25098" bordercolor="0x0000ff" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot pan="-75.06" url="{node12}" skinid="Hotspot 1" tilt="3.69" fov="10" description="" customimageheight="94" use3D="0" title="鸟瞰图" target="" customimage="media/Arrow3D.png" customimagewidth="116" id="Point01" distance3D="662.943"/>
+    </hotspots>
+    <media>
+      <sound level="0.900" mode="1" pan="-109.410" tilt="7.980" pansize="10.000" ambientlevel="0.000" nodechangekeep="0" field="90.000" startmutedmobile="0" id="Element01" tiltsize="10.000" loop="1">
+        <source url="media/Oval Mandarin.mp3"/>
+      </sound>
+    </media>
+    <transition softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomspeed="2" zoomoutpause="0" zoomfov="20" enabled="1" zoomin="2" zoomout="2"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control lockedmouse="0" speedwheel="1" rubberband="0" invertwheel="0" dblclickfullscreen="0" invertcontrol="1" simulatemass="1" sensitivity="8" hideabout="0" lockedwheel="0" lockedkeyboard="0" contextfullscreen="1" contextprojections="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata latitude="" copyright="" source="" heading="0" author="" info="" description="" title="" tags="" customnodeid="" longitude="" datetime="" comment="" nodeid="master"/>
+  </masternode>
+</tour>
