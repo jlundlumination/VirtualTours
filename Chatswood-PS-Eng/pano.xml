@@ -44,7 +44,6 @@
       <label background="1" textalpha="1" backgroundalpha="1" width="180" wordwrap="1" height="20" backgroundcolor="0xffffff" textcolor="0x000000" borderradius="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1"/>
       <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-329.39" description="" skinid="Hotspot 1" title="Front Office" url="{node3}" target="$fwd" customimagewidth="116" use3D="0" tilt="-9.78" distance3D="662.943" customimage="media/Arrow3D.png" customimageheight="94" id="Point01" fov="10"/>
-      <hotspot pan="-346.19" description="" skinid="ht_image" title="1930" url="images/StreetView-1930 copy.jpg" target="" tilt="28.71" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="2" zoomfov="20" zoomafterinfov="90" blendtime="1" type="crossdissolve" zoomoutpause="0" softedge="0" zoomafteroutfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomout="2"/>
@@ -325,7 +324,6 @@
       <label background="1" textalpha="1" backgroundalpha="1" width="180" wordwrap="1" height="20" backgroundcolor="0xffffff" textcolor="0x000000" borderradius="1" borderalpha="1" bordercolor="0x000000" border="1" enabled="1"/>
       <polystyle backgroundalpha="0.25098" mode="0" backgroundcolor="0x0000ff" handcursor="1" borderalpha="1" bordercolor="0x0000ff"/>
       <hotspot pan="-214.01" description="" skinid="Hotspot 1" title="Kindergarten" url="{node6}" target="" customimagewidth="116" use3D="0" tilt="-14.26" distance3D="662.943" customimage="media/Arrow3D.png" customimageheight="94" id="Point01" fov="10"/>
-      <hotspot pan="-185.32" description="" skinid="ht_image" title="1934" url="images/Courtyard-1934 copy.jpg" target="" tilt="0.73" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="2" zoomfov="20" zoomafterinfov="90" blendtime="1" type="crossdissolve" zoomoutpause="0" softedge="0" zoomafteroutfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomout="2"/>
@@ -356,7 +354,7 @@
     </hotspots>
     <media>
       <image pan="-53.000" rotz="0.000" roty="0.000" width="436" rotx="0.000" tilt="0.910" height="241" handcursor="0" stretch="1.000" id="Element01" fov="30.000" clickmode="0">
-        <source url="media/Banner-Reception.png"/>
+        <source url="media/Banner-Kindy.png"/>
       </image>
     </media>
     <transition zoomin="2" zoomfov="20" zoomafterinfov="90" blendtime="1" type="crossdissolve" zoomoutpause="0" softedge="0" zoomafteroutfov="20" zoomspeed="2" blendcolor="0x000000" enabled="1" zoomout="2"/>
