@@ -20,9 +20,10 @@
       <hotspot customimagewidth="98" skinid="Hotspot 1" target="" pan="-266.23" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="560.073" id="Entrance" customimageheight="80" url="{node2}" tilt="-41.48" fov="10" title="Entrance"/>
     </hotspots>
     <media>
-      <sound mode="1" pansize="10.000" pan="-278.740" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element01" startmutedmobile="0" tilt="-15.510" tiltsize="10.000" nodechangekeep="0">
+      <sound mode="0" pansize="10.000" pan="-1.000" level="1.000" loop="-1" field="90.000" ambientlevel="0.000" id="_background" startmutedmobile="0" tilt="-1.000" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Principal message.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -53,6 +54,7 @@
       <sound mode="1" pansize="10.000" pan="-346.210" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element01" startmutedmobile="0" tilt="16.560" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Welcome-front of school.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -86,6 +88,7 @@
       <hotspot skinid="ht_image" target="" pan="-347.09" description="" id="Point08" url="images/ClassPhoto-1912.jpg" tilt="6.49" title="1912"/>
       <hotspot skinid="ht_image" target="" pan="-340.24" description="" id="Point03" url="images/SignedApplication-02 copy.jpg" tilt="6.21" title="Established in 1882"/>
       <hotspot skinid="ht_url" target="_blank" pan="-198.48" description="" id="Point11" url="https://sites.google.com/education.nsw.gov.au/cps-photo-gallery/korean-sister-school?authuser=0" tilt="-2.53" title="Korean Sister School Visit"/>
+      <hotspot skinid="ht_url" target="_blank" pan="-78.25" description="" id="Point09" url="https://sites.google.com/education.nsw.gov.au/cps-photo-gallery/coonamble-sister-school?authuser=0" tilt="2.67" title="Coonamble Sister School Visit"/>
     </hotspots>
     <media>
       <image rotx="0.000" height="193" handcursor="0" rotz="0.000" clickmode="0" pan="-145.610" id="Element01" tilt="6.820" roty="0.000" width="349" fov="30.000" stretch="1.000">
@@ -100,9 +103,13 @@
       <image rotx="0.000" height="240" handcursor="0" rotz="0.000" clickmode="0" pan="-347.090" id="Element04" tilt="9.000" roty="0.000" width="436" fov="30.000" stretch="1.000">
         <source url="media/Banner-Historical.png"/>
       </image>
+      <image rotx="0.000" height="240" handcursor="0" rotz="0.000" clickmode="0" pan="-78.390" id="Element06" tilt="6.260" roty="0.000" width="436" fov="30.000" stretch="1.000">
+        <source url="media/Banner-CoonambleSS.png"/>
+      </image>
       <sound mode="1" pansize="10.000" pan="-315.980" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element05" startmutedmobile="0" tilt="12.080" tiltsize="10.000" nodechangekeep="0">
         <source url="media/School Foyer.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -137,6 +144,7 @@
       <sound mode="1" pansize="10.000" pan="-215.310" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element02" startmutedmobile="0" tilt="5.960" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Library.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -163,7 +171,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-167.56" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node1}" tilt="-1.35" fov="10" title="Senior Classroom"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
@@ -189,7 +199,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-13.52" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node12}" tilt="-4.74" fov="10" title="Playground"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
@@ -215,7 +227,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-190.57" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node10}" tilt="-12.43" fov="10" title="Student Entrance"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
@@ -241,7 +255,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-234.59" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node8}" tilt="-21.58" fov="10" title="The Lowers"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
@@ -277,6 +293,7 @@
       <sound mode="1" pansize="10.000" pan="-286.320" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element02" startmutedmobile="0" tilt="22.930" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Lowers-Sports.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -318,6 +335,7 @@
       <sound mode="1" pansize="10.000" pan="-220.120" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element03" startmutedmobile="0" tilt="-1.680" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Hall.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -344,7 +362,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-214.01" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node6}" tilt="-14.26" fov="10" title="Kindergarten"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
@@ -378,6 +398,7 @@
       <sound mode="1" pansize="10.000" pan="-301.690" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element02" startmutedmobile="0" tilt="5.330" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Kindergarten.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -404,7 +425,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-296.53" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node13}" tilt="-17.67" fov="10" title="Bush Campus Entrance"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
@@ -429,15 +452,12 @@
       <label height="20" textalpha="1" borderradius="1" enabled="1" backgroundalpha="1" borderalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" width="180" wordwrap="1" background="1"/>
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-321.37" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node14}" tilt="-20.99" fov="10" title="Bush Campus Decking"/>
-      <hotspot skinid="ht_url" target="_blank" pan="-16.94" description="" id="Point02" url="https://sites.google.com/education.nsw.gov.au/cps-photo-gallery/coonamble-sister-school?authuser=0" tilt="-1.95" title="Coonamble Sister School"/>
     </hotspots>
     <media>
-      <image rotx="0.000" height="240" handcursor="0" rotz="0.000" clickmode="0" pan="-16.920" id="Element01" tilt="0.160" roty="0.000" width="436" fov="30.000" stretch="1.000">
-        <source url="media/Banner-CoonambleSS.png"/>
-      </image>
       <sound mode="1" pansize="10.000" pan="-344.260" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element02" startmutedmobile="0" tilt="10.300" tiltsize="10.000" nodechangekeep="0">
         <source url="media/Bush campus.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -468,6 +488,7 @@
       <sound mode="1" pansize="10.000" pan="-77.230" level="1.000" loop="1" field="90.000" ambientlevel="0.000" id="Element01" startmutedmobile="0" tilt="7.940" tiltsize="10.000" nodechangekeep="0">
         <source url="media/COLA.mp3"/>
       </sound>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
     </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
@@ -494,7 +515,9 @@
       <polystyle handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
       <hotspot customimagewidth="116" skinid="Hotspot 1" target="" pan="-279.89" description="" customimage="media/Arrow3D.png" use3D="0" distance3D="662.943" id="Point01" customimageheight="94" url="{node16}" tilt="-13.87" distance="274.65" fov="10" title="Main Campus"/>
     </hotspots>
-    <media/>
+    <media>
+      <sound mode="0" level="1.000" loop="-1" id="Principal message" url="media/skin_snd_Principal message.mp3" keep="1"/>
+    </media>
     <transition zoomoutpause="0" zoomout="2" blendcolor="0x000000" type="crossdissolve" enabled="1" zoomafteroutfov="20" zoomin="2" softedge="0" zoomspeed="2" blendtime="1" zoomafterinfov="90" zoomfov="20"/>
     <autorotate noderandom="1" returntohorizon="0.100" nodedelay="0.00" nodefilter="" speed="0.020" useanimation="0" delay="5.00" enabled="1" startloaded="1"/>
     <flyintransition speed="2.00" enabled="1"/>
