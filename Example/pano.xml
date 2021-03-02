@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama apprev="18043" id="node1" appversion="6.1.11">
+  <input height="2908" levelingpitch="-5" leveltilesize="510" levelbiashidpi="1.000" overlap="1" width="2908" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="2">
+    <level height="2908" width="2908" preload="0" predecode="0"/>
+    <level height="1454" width="1454" preload="0" predecode="0"/>
+    <level height="727" width="727" preload="0" predecode="0"/>
+    <level height="363" width="363" preload="1" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" fov="70" tilt="0" pan="0"/>
+    <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+    <min tilt="-90" fovpixel="2" pan="0"/>
+    <max scaletofit="1" fovstereographic="270" fov="120" tilt="90" pan="360" fovfisheye="360"/>
+  </view>
+  <userdata title="" customnodeid="" latitude="" description="" author="" copyright="" source="" tags="Base64" comment="" datetime="29/08/2017 4:45 PM" longitude="" info="" nodeid="node1" heading="0"/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label height="20" backgroundalpha="1" width="180" textalpha="1" enabled="1" borderradius="1" border="1" wordwrap="1" textcolor="0x000000" background="1" bordercolor="0x000000" backgroundcolor="0xffffff" borderalpha="1"/>
+    <polystyle backgroundalpha="0.25098" mode="0" handcursor="1" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+    <hotspot title="Embedded Video" url="" description="Embedded video allows us to take isolated footage shot on location and composite it into a still 360 panorama. This gives the effect of movement within a scene without needing to load an entire 360 video. " skinid="ht_info" tilt="-35.14" id="Point01" pan="-353.23" target=""/>
+  </hotspots>
+  <media>
+    <video roty="0.000" stretch="1.000" loop="0" ambientlevel="0.000" width="1296" field="90.000" rotz="2.500" height="1856" poster="media/Spin-preview.jpg" rotx="0.000" tilt="-14.750" startmutedmobile="0" pansize="10.000" handcursor="0" pan="6.130" mode="1" tiltsize="10.000" fov="38.460" nodechangekeep="0" level="1.000" id="Element01" clickmode="0">
+      <source url="media/Spin.mp4"/>
+    </video>
+    <image height="53" rotx="0.000" stretch="1.000" width="118" rotz="0.000" handcursor="0" fov="20.615" tilt="-41.750" id="Element02" pan="-353.390" clickmode="0" roty="0.000">
+      <source url="media/Plaque-VideoDemo@3x.png"/>
+    </image>
+  </media>
+  <transition zoomafteroutfov="20" zoomin="0" blendtime="1" type="crossdissolve" enabled="1" zoomafterinfov="90" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0"/>
+  <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+  <control hideabout="0" sensitivity="8" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" lockedwheel="0" rubberband="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" dblclickfullscreen="0" lockedmouse="0" contextfullscreen="1"/>
+</panorama>
