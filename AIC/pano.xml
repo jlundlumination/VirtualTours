@@ -1,543 +1,544 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="18043" appversion="6.1.11" start="node20">
+<tour start="node20" apprev="18043" appversion="6.1.11">
   <panorama id="node20">
-    <input overlap="1" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="9" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="-2">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="-2" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="9" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="85.6" tilt="14.25" pan="52.95" projection="4"/>
-      <flyin fov="270" tilt="-90" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="52.95" projection="4" tilt="14.25" fov="85.6"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="270"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node20" description="" longitude="" author="" latitude="" title="Entrance" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 4:03 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-3.81" pan="-344.92" title="Library" customimage="media/Arrow.png" url="{node11}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Entrance" description="Click and drag to rotate view&#xa;&#xa;Find icons located around the scene, and click to view info pop-ups, URL links, images, and videos. &#xa;&#xa;To move to the next scene, find the arrow, or choose a category from the bottom menu." datetime="12/09/2017 4:03 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node20"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-344.92" customimage="media/Arrow.png" tilt="-3.81" distance3D="662.943" title="Library" description="" skinid="Hotspot 1" url="{node11}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node11">
-    <input overlap="1" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2856" levelingpitch="3" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2856" levelingroll="0">
-      <level width="2856" preload="0" height="2856" predecode="0"/>
-      <level width="1428" preload="0" height="1428" predecode="0"/>
-      <level width="714" preload="0" height="714" predecode="0"/>
-      <level width="357" preload="1" height="357" predecode="1"/>
+    <input levelingroll="0" height="2856" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="3" width="2856" leveltilesize="510">
+      <level preload="0" predecode="0" height="2856" width="2856"/>
+      <level preload="0" predecode="0" height="1428" width="1428"/>
+      <level preload="0" predecode="0" height="714" width="714"/>
+      <level preload="1" predecode="1" height="357" width="357"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-14.31" pan="-49.68" projection="4"/>
-      <flyin fov="93.94" tilt="-16.18" pan="-50.77" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-49.68" projection="4" tilt="-14.31" fov="80"/>
+      <flyin pan="-50.77" projection="4" tilt="-16.18" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node11" description="" longitude="" author="" latitude="" title="Library" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 2:15 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-3.72" pan="-257.5" title="Computer Room" customimage="media/Arrow.png" url="{node3}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Library" description="&#xa;Literacy in all aspects is the key to learning. As our Prophet s.a.w began his journey with Iqra – ‘Read’ as the first revelation of Quran. &#xa;&#xa;" datetime="29/05/2017 2:15 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node11"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-257.5" customimage="media/Arrow.png" tilt="-3.72" distance3D="662.943" title="Computer Room" description="" skinid="Hotspot 1" url="{node3}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-197.74" tilt="-10.36" title="Library Time" description="" skinid="ht_image" url="images/Library  time.jpg" id="Point03" target=""/>
+      <hotspot pan="-150.25" tilt="-11.65" title="Book Week" description="" skinid="ht_image" url="images/bookweek.jpg" id="Point04" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2871" levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2871" levelingroll="-1">
-      <level width="2871" preload="0" height="2871" predecode="0"/>
-      <level width="1435" preload="0" height="1435" predecode="0"/>
-      <level width="717" preload="0" height="717" predecode="0"/>
-      <level width="358" preload="1" height="358" predecode="1"/>
+    <input levelingroll="-1" height="2871" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1" width="2871" leveltilesize="510">
+      <level preload="0" predecode="0" height="2871" width="2871"/>
+      <level preload="0" predecode="0" height="1435" width="1435"/>
+      <level preload="0" predecode="0" height="717" width="717"/>
+      <level preload="1" predecode="1" height="358" width="358"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-14.23" pan="20.34" projection="4"/>
-      <flyin fov="67.31" tilt="-3.99" pan="9.76" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="20.34" projection="4" tilt="-14.23" fov="80"/>
+      <flyin pan="9.76" projection="4" tilt="-3.99" fov="67.31"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node3" description="" longitude="" author="" latitude="" title="Computer Room" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 2:17 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-2.94" pan="-294.95" title="Science" customimage="media/Arrow.png" url="{node18}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Computer Room" description="&#xa;Computer skills are essential for our 21st Century learners&#xa;&#xa;" datetime="29/05/2017 2:17 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node3"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-294.95" customimage="media/Arrow.png" tilt="-2.94" distance3D="662.943" title="Science" description="" skinid="Hotspot 1" url="{node18}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-250.57" tilt="1.16" title="Primary ICT Time" description="" skinid="ht_image" url="images/Primary ICT time.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node18">
-    <input overlap="1" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2881" levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2881" levelingroll="1">
-      <level width="2881" preload="0" height="2881" predecode="0"/>
-      <level width="1440" preload="0" height="1440" predecode="0"/>
-      <level width="720" preload="0" height="720" predecode="0"/>
-      <level width="360" preload="1" height="360" predecode="1"/>
+    <input levelingroll="1" height="2881" levelbiashidpi="1.000" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1" width="2881" leveltilesize="510">
+      <level preload="0" predecode="0" height="2881" width="2881"/>
+      <level preload="0" predecode="0" height="1440" width="1440"/>
+      <level preload="0" predecode="0" height="720" width="720"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-6.37" pan="87.63" projection="4"/>
-      <flyin fov="93.94" tilt="-13.59" pan="86.45" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="87.63" projection="4" tilt="-6.37" fov="80"/>
+      <flyin pan="86.45" projection="4" tilt="-13.59" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node18" description="" longitude="" author="" latitude="" title="Science" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 3:29 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-2.95" pan="-177.65" title="STEM" customimage="media/Arrow.png" url="{node19}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Science" description="&#xa;Early Muslim scholars established many of the disciplines that our students continue to excel in today &#xa;&#xa;" datetime="29/05/2017 3:29 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node18"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-177.65" customimage="media/Arrow.png" tilt="-2.95" distance3D="662.943" title="STEM" description="" skinid="Hotspot 1" url="{node19}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-328.94" tilt="-14.99" title="" description="" skinid="ht_image" url="images/High school students in lab.jpg" id="Point03" target=""/>
+      <hotspot pan="-219.89" tilt="-14.89" title="" description="" skinid="ht_image" url="images/Lab activities.jpg" id="Point04" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node19">
-    <input overlap="1" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2887" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2887" levelingroll="1">
-      <level width="2887" preload="0" height="2887" predecode="0"/>
-      <level width="1443" preload="0" height="1443" predecode="0"/>
-      <level width="721" preload="0" height="721" predecode="0"/>
-      <level width="360" preload="1" height="360" predecode="1"/>
+    <input levelingroll="1" height="2887" levelbiashidpi="1.000" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0" width="2887" leveltilesize="510">
+      <level preload="0" predecode="0" height="2887" width="2887"/>
+      <level preload="0" predecode="0" height="1443" width="1443"/>
+      <level preload="0" predecode="0" height="721" width="721"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-9.1" pan="85.12" projection="4"/>
-      <flyin fov="93.94" tilt="-5.2" pan="79.87" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="85.12" projection="4" tilt="-9.1" fov="80"/>
+      <flyin pan="79.87" projection="4" tilt="-5.2" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node19" description="" longitude="" author="" latitude="" title="STEM" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 2:34 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-1.87" pan="-205.45" title="Art " customimage="media/Arrow.png" url="{node1}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="STEM" description="&#xa;Collaborative work is an important social skill and essential in developing STEM capacity&#xa;&#xa;" datetime="29/05/2017 2:34 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node19"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-205.45" customimage="media/Arrow.png" tilt="-1.87" distance3D="662.943" title="Art " description="" skinid="Hotspot 1" url="{node1}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-146.24" tilt="0.5" title="" description="" skinid="ht_image" url="images/boys.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node1">
-    <input overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2879" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2879" levelingroll="-1">
-      <level width="2879" preload="0" height="2879" predecode="0"/>
-      <level width="1439" preload="0" height="1439" predecode="0"/>
-      <level width="719" preload="0" height="719" predecode="0"/>
-      <level width="359" preload="1" height="359" predecode="1"/>
+    <input levelingroll="-1" height="2879" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0" width="2879" leveltilesize="510">
+      <level preload="0" predecode="0" height="2879" width="2879"/>
+      <level preload="0" predecode="0" height="1439" width="1439"/>
+      <level preload="0" predecode="0" height="719" width="719"/>
+      <level preload="1" predecode="1" height="359" width="359"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-8.02" pan="5.74" projection="4"/>
-      <flyin fov="93.94" tilt="-8.35" pan="8.06" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="5.74" projection="4" tilt="-8.02" fov="80"/>
+      <flyin pan="8.06" projection="4" tilt="-8.35" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node1" description="" longitude="" author="" latitude="" title="Art " source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 2:26 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-1.51" pan="-133.71" title="Downstairs Hallway" customimage="media/Arrow.png" url="{node26}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Art " description="&#xa;Understanding how to create, design and incorporate beauty is part of our Islamic heritage&#xa;&#xa;" datetime="29/05/2017 2:26 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node1"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-133.71" customimage="media/Arrow.png" tilt="-1.51" distance3D="662.943" title="Downstairs Hallway" description="" skinid="Hotspot 1" url="{node26}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-327.9" tilt="0.5" title="" description="" skinid="ht_image" url="images/Art work.jpg" id="Point04" target=""/>
+      <hotspot pan="-322.53" tilt="-31.82" title="" description="" skinid="ht_image" url="images/Art excellent2.jpg" id="Point05" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node26">
-    <input overlap="1" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="-4" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="-4">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="-4" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="-4" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="85" tilt="-3.39" pan="-6.71" projection="4"/>
-      <flyin fov="85.29" tilt="-7.92" pan="-3.14" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-6.71" projection="4" tilt="-3.39" fov="85"/>
+      <flyin pan="-3.14" projection="4" tilt="-7.92" fov="85.29"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node26" description="" longitude="" author="" latitude="" title="Downstairs Hallway" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:24 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-3.62" pan="-207.38" title="Upstairs Hallway" customimage="media/Arrow.png" url="{node27}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Downstairs Hallway" description="&#xa;Extra curricular activities of all kinds are encouraged at AIC&#xa;&#xa;" datetime="12/09/2017 3:24 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node26"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-207.38" customimage="media/Arrow.png" tilt="-3.62" distance3D="662.943" title="Mental Health" description="" skinid="Hotspot 1" url="{node27}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-28.41" tilt="2.12" title="" description="" skinid="ht_image" url="images/Mylor camp.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node27">
-    <input overlap="1" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="-8">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="-8" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="85.29" tilt="-5.14" pan="96.21" projection="4"/>
-      <flyin fov="85.29" tilt="-5.14" pan="96.21" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="96.21" projection="4" tilt="-5.14" fov="85.29"/>
+      <flyin pan="96.21" projection="4" tilt="-5.14" fov="85.29"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node27" description="" longitude="" author="" latitude="" title="Upstairs Hallway" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:34 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-3.24" pan="-263.43" title="High School" customimage="media/Arrow.png" url="{node24}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Mental Health" description="&#xa;Students perform best in safe places with supportive teachers who understand their needs &#xa;&#xa;" datetime="12/09/2017 3:34 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node27"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-263.43" customimage="media/Arrow.png" tilt="-3.24" distance3D="662.943" title="HASS and English" description="" skinid="Hotspot 1" url="{node24}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-236.45" tilt="23.61" title="" description="" skinid="ht_image" url="images/Primary class.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node24">
-    <input overlap="1" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="2" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="2">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="2" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="2" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="84.44" tilt="-2.04" pan="-32.4" projection="4"/>
-      <flyin fov="85.29" tilt="-1.31" pan="-30.87" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-32.4" projection="4" tilt="-2.04" fov="84.44"/>
+      <flyin pan="-30.87" projection="4" tilt="-1.31" fov="85.29"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node24" description="" longitude="" author="" latitude="" title="High School" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:36 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-5.33" pan="-105.47" title="High School" customimage="media/Arrow.png" url="{node23}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="HASS and English" description="&#xa;Knowing your world and having the confidence to speak about it are skills necessary for leaders of the future &#xa;&#xa;" datetime="12/09/2017 3:36 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node24"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-105.47" customimage="media/Arrow.png" tilt="-5.33" distance3D="662.943" title="Design and Technology" description="" skinid="Hotspot 1" url="{node23}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-78.62" tilt="0.72" title="" description="" skinid="ht_image" url="images/Hass and English.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node23">
-    <input overlap="1" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="0">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="0" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="84.44" tilt="-6.53" pan="32.25" projection="4"/>
-      <flyin fov="84.17" tilt="-4.18" pan="36.8" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="32.25" projection="4" tilt="-6.53" fov="84.44"/>
+      <flyin pan="36.8" projection="9" tilt="-4.18" fov="84.17"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node23" description="" longitude="" author="" latitude="" title="High School" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:40 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-2.44" pan="-39.47" title="High School" customimage="media/Arrow.png" url="{node25}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Design and Technology" description="&#xa;Discovery is a critical part of learning&#xa;&#xa;" datetime="12/09/2017 3:40 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node23"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-39.47" customimage="media/Arrow.png" tilt="-2.44" distance3D="662.943" title="Arabic" description="" skinid="Hotspot 1" url="{node28}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-9.32999" tilt="0.98" title="" description="" skinid="ht_image" url="images/Stem with Alma.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
-  </panorama>
-  <panorama id="node25">
-    <input overlap="1" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="-6" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="6">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="84.44" tilt="-4.39" pan="-16.61" projection="4"/>
-      <flyin fov="84.17" tilt="-1.87" pan="-28.9" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
-    </view>
-    <userdata comment="" nodeid="node25" description="" longitude="" author="" latitude="" title="High School" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:43 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-4.66" pan="-264.18" title="Upstairs Hallway" customimage="media/Arrow.png" url="{node28}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
-    </hotspots>
-    <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node28">
-    <input overlap="1" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="-6">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="-6" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="84.44" tilt="-3.25" pan="5.04" projection="4"/>
-      <flyin fov="84.52" tilt="-0.75" pan="5.2" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="5.04" projection="4" tilt="-3.25" fov="84.44"/>
+      <flyin pan="5.2" projection="4" tilt="-0.75" fov="84.52"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node28" description="" longitude="" author="" latitude="" title="Upstairs Hallway" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:45 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="0.62" pan="-328.34" title="Boys Courtyard" customimage="media/Arrow.png" url="{node21}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Arabic" description="&#xa;The study of Arabic is an essential part of understanding the Islamic Religion &#xa;Knowing you identify means understanding how to be a Muslim in Australian society. &#xa;&#xa;" datetime="12/09/2017 3:45 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node28"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-328.34" customimage="media/Arrow.png" tilt="0.62" distance3D="662.943" title="Boys Courtyard" description="" skinid="Hotspot 1" url="{node21}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-29.94" tilt="26.89" title="" description="" skinid="ht_image" url="images/Arabic senior teaching.jpg" id="Point03" target=""/>
+      <hotspot pan="-354.55" tilt="15.36" title="" description="" skinid="ht_image" url="images/STEM.jpg" id="Point04" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node21">
-    <input overlap="1" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="3" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="-2">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="-2" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="3" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="85.37" tilt="3.62" pan="90.94" projection="4"/>
-      <flyin fov="84.52" tilt="8.77" pan="116.77" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="90.94" projection="4" tilt="3.62" fov="85.37"/>
+      <flyin pan="116.77" projection="4" tilt="8.77" fov="84.52"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node21" description="" longitude="" author="" latitude="" title="Boys Courtyard" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:17 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="2.45" pan="-294.47" title="Girls Courtyard" customimage="media/Arrow.png" url="{node22}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Boys Courtyard" description="&#xa;Strength, teamwork, and sports skills make for a healthy body and mind, and balance our academic program &#xa;&#xa;" datetime="12/09/2017 3:17 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node21"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-294.47" customimage="media/Arrow.png" tilt="2.45" distance3D="662.943" title="Girls Courtyard" description="" skinid="Hotspot 1" url="{node22}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-135.16" tilt="17.18" title="" description="" skinid="ht_image" url="images/portpower sports.jpg" id="Point03" target=""/>
+      <hotspot pan="-147.47" tilt="17.32" title="" description="" skinid="ht_image" url="images/Portpower sports 1.jpg" id="Point04" target=""/>
+      <hotspot pan="-159.55" tilt="16.65" title="" description="" skinid="ht_image" url="images/thumbnail (7).jpg" id="Point05" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node22">
-    <input overlap="1" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2000" levelingpitch="-8" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2000" levelingroll="9">
-      <level width="2000" preload="0" height="2000" predecode="0"/>
-      <level width="1000" preload="0" height="1000" predecode="0"/>
-      <level width="500" preload="1" height="500" predecode="1"/>
+    <input levelingroll="9" height="2000" levelbiashidpi="1.000" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="-8" width="2000" leveltilesize="510">
+      <level preload="0" predecode="0" height="2000" width="2000"/>
+      <level preload="0" predecode="0" height="1000" width="1000"/>
+      <level preload="1" predecode="1" height="500" width="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="84.44" tilt="4.84" pan="-53.49" projection="4"/>
-      <flyin fov="84.52" tilt="8.83" pan="-8.63" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-53.49" projection="4" tilt="4.84" fov="84.44"/>
+      <flyin pan="-8.63" projection="4" tilt="8.83" fov="84.52"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node22" description="" longitude="" author="" latitude="" title="Girls Courtyard" source="" info="" tags="AIC" customnodeid="" datetime="12/09/2017 3:28 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="1.33" pan="-290.09" title="Hall" customimage="media/Arrow.png" url="{node6}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Girls Courtyard" description="&#xa;Students learn skills in many sports during the day with extra-curricula sport after school&#xa;&#xa;" datetime="12/09/2017 3:28 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node22"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-290.09" customimage="media/Arrow.png" tilt="1.33" distance3D="662.943" title="Hall" description="" skinid="Hotspot 1" url="{node6}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-13.55" tilt="-12.59" title="" description="" skinid="ht_image" url="images/Afterschool sports.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node6">
-    <input overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2886" levelingpitch="2" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2886" levelingroll="0">
-      <level width="2886" preload="0" height="2886" predecode="0"/>
-      <level width="1443" preload="0" height="1443" predecode="0"/>
-      <level width="721" preload="0" height="721" predecode="0"/>
-      <level width="360" preload="1" height="360" predecode="1"/>
+    <input levelingroll="0" height="2886" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="2" width="2886" leveltilesize="510">
+      <level preload="0" predecode="0" height="2886" width="2886"/>
+      <level preload="0" predecode="0" height="1443" width="1443"/>
+      <level preload="0" predecode="0" height="721" width="721"/>
+      <level preload="1" predecode="1" height="360" width="360"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-5.33" pan="124.42" projection="4"/>
-      <flyin fov="72.21" tilt="-4.73" pan="116.98" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="124.42" projection="4" tilt="-5.33" fov="80"/>
+      <flyin pan="116.98" projection="4" tilt="-4.73" fov="72.21"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node6" description="" longitude="" author="" latitude="" title="Hall" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 3:31 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="1.82" pan="-276.52" title="Kindergarten" customimage="media/Arrow.png" url="{node10}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Hall" description="&#xa;Our multipurpose hall ensures that our students have the opportunity to fulfil their spiritual obligations in salat&#xa;&#xa;" datetime="29/05/2017 3:31 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node6"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-276.52" customimage="media/Arrow.png" tilt="1.82" distance3D="662.943" title="Kindergarten" description="" skinid="Hotspot 1" url="{node10}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-202.07" tilt="0.8" title="" description="" skinid="ht_image" url="images/Prayer time.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node10">
-    <input overlap="1" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2879" levelingpitch="2" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2879" levelingroll="1">
-      <level width="2879" preload="0" height="2879" predecode="0"/>
-      <level width="1439" preload="0" height="1439" predecode="0"/>
-      <level width="719" preload="0" height="719" predecode="0"/>
-      <level width="359" preload="1" height="359" predecode="1"/>
+    <input levelingroll="1" height="2879" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="2" width="2879" leveltilesize="510">
+      <level preload="0" predecode="0" height="2879" width="2879"/>
+      <level preload="0" predecode="0" height="1439" width="1439"/>
+      <level preload="0" predecode="0" height="719" width="719"/>
+      <level preload="1" predecode="1" height="359" width="359"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="85" tilt="-7.66" pan="39.51" projection="4"/>
-      <flyin fov="72.21" tilt="-3.53" pan="18.89" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="39.51" projection="4" tilt="-7.66" fov="85"/>
+      <flyin pan="18.89" projection="4" tilt="-3.53" fov="72.21"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node10" description="" longitude="" author="" latitude="" title="Kindergarten" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 3:15 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="3.54" pan="-93.61" title="Playground" customimage="media/Arrow.png" url="{node12}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Kindergarten" description="&#xa;Interest and inspiration help students to begin their journey of learning &#xa;&#xa;" datetime="29/05/2017 3:15 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node10"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-93.61" customimage="media/Arrow.png" tilt="3.54" distance3D="662.943" title="Playground" description="" skinid="Hotspot 1" url="{node12}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-12.96" tilt="-3.97" title="" description="" skinid="ht_image" url="images/Kindie.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node12">
-    <input overlap="1" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2875" levelingpitch="3" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2875" levelingroll="2">
-      <level width="2875" preload="0" height="2875" predecode="0"/>
-      <level width="1437" preload="0" height="1437" predecode="0"/>
-      <level width="718" preload="0" height="718" predecode="0"/>
-      <level width="359" preload="1" height="359" predecode="1"/>
+    <input levelingroll="2" height="2875" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="3" width="2875" leveltilesize="510">
+      <level preload="0" predecode="0" height="2875" width="2875"/>
+      <level preload="0" predecode="0" height="1437" width="1437"/>
+      <level preload="0" predecode="0" height="718" width="718"/>
+      <level preload="1" predecode="1" height="359" width="359"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="85" tilt="2.95" pan="-80.67" projection="4"/>
-      <flyin fov="79.25" tilt="4.46" pan="-75.57" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-80.67" projection="4" tilt="2.95" fov="85"/>
+      <flyin pan="-75.57" projection="4" tilt="4.46" fov="79.25"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node12" description="" longitude="" author="" latitude="" title="Playground" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 2:47 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-0.41" pan="-170.17" title="Primary School" customimage="media/Arrow.png" url="{node16}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Playground" description="&#xa;From an early age our students are encouraged to develop both their body and mind &#xa;&#xa;" datetime="29/05/2017 2:47 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node12"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-170.17" customimage="media/Arrow.png" tilt="-0.41" distance3D="662.943" title="Primary School" description="" skinid="Hotspot 1" url="{node16}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-48.2" tilt="-0.7" title="" description="" skinid="ht_image" url="images/priamry sports.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node16">
-    <input overlap="1" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2891" levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2891" levelingroll="1">
-      <level width="2891" preload="0" height="2891" predecode="0"/>
-      <level width="1445" preload="0" height="1445" predecode="0"/>
-      <level width="722" preload="0" height="722" predecode="0"/>
-      <level width="361" preload="1" height="361" predecode="1"/>
+    <input levelingroll="1" height="2891" levelbiashidpi="1.000" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1" width="2891" leveltilesize="510">
+      <level preload="0" predecode="0" height="2891" width="2891"/>
+      <level preload="0" predecode="0" height="1445" width="1445"/>
+      <level preload="0" predecode="0" height="722" width="722"/>
+      <level preload="1" predecode="1" height="361" width="361"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-0.29" pan="-86.61" projection="4"/>
-      <flyin fov="79.25" tilt="-10.52" pan="-94.58" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-86.61" projection="4" tilt="-0.29" fov="80"/>
+      <flyin pan="-94.58" projection="4" tilt="-10.52" fov="79.25"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node16" description="" longitude="" author="" latitude="" title="Primary School" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 3:11 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-5.84" pan="-338.47" title="Primary School" customimage="media/Arrow.png" url="{node13}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Primary School" description="&#xa;At AIC, beauty in everything we do is strongly encouraged. It is a reflection of our Creator – Al Jameel, The Beautiful &#xa;&#xa;" datetime="29/05/2017 3:11 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node16"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-338.47" customimage="media/Arrow.png" tilt="-5.84" distance3D="662.943" title="Primary School" description="" skinid="Hotspot 1" url="{node13}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-265.87" tilt="-0.07" title="" description="" skinid="ht_image" url="images/Primary class.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node13">
-    <input overlap="1" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2879" levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2879" levelingroll="0">
-      <level width="2879" preload="0" height="2879" predecode="0"/>
-      <level width="1439" preload="0" height="1439" predecode="0"/>
-      <level width="719" preload="0" height="719" predecode="0"/>
-      <level width="359" preload="1" height="359" predecode="1"/>
+    <input levelingroll="0" height="2879" levelbiashidpi="1.000" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1" width="2879" leveltilesize="510">
+      <level preload="0" predecode="0" height="2879" width="2879"/>
+      <level preload="0" predecode="0" height="1439" width="1439"/>
+      <level preload="0" predecode="0" height="719" width="719"/>
+      <level preload="1" predecode="1" height="359" width="359"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-5.23" pan="10.31" projection="4"/>
-      <flyin fov="93.94" tilt="5.47" pan="21.87" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="10.31" projection="4" tilt="-5.23" fov="80"/>
+      <flyin pan="21.87" projection="4" tilt="5.47" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node13" description="" longitude="" author="" latitude="" title="Primary School" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 2:58 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="5.56" pan="-232.47" title="Primary School" customimage="media/Arrow.png" url="{node14}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Primary School" description="&#xa;With exciting lessons and supportive caring teachers, AIC students excel&#xa;&#xa;" datetime="29/05/2017 2:58 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node13"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-232.47" customimage="media/Arrow.png" tilt="5.56" distance3D="662.943" title="Primary School" description="" skinid="Hotspot 1" url="{node14}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-153.52" tilt="-0.83" title="" description="" skinid="ht_image" url="images/Primary lesson time.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node14">
-    <input overlap="1" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2893" levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2893" levelingroll="1">
-      <level width="2893" preload="0" height="2893" predecode="0"/>
-      <level width="1446" preload="0" height="1446" predecode="0"/>
-      <level width="723" preload="0" height="723" predecode="0"/>
-      <level width="361" preload="1" height="361" predecode="1"/>
+    <input levelingroll="1" height="2893" levelbiashidpi="1.000" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="1" width="2893" leveltilesize="510">
+      <level preload="0" predecode="0" height="2893" width="2893"/>
+      <level preload="0" predecode="0" height="1446" width="1446"/>
+      <level preload="0" predecode="0" height="723" width="723"/>
+      <level preload="1" predecode="1" height="361" width="361"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-7.97" pan="-10.55" projection="4"/>
-      <flyin fov="93.94" tilt="-3.05" pan="-7.07" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-10.55" projection="4" tilt="-7.97" fov="80"/>
+      <flyin pan="-7.07" projection="4" tilt="-3.05" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node14" description="" longitude="" author="" latitude="" title="Primary School" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 3:01 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="7.75" pan="-342.26" title="Primary School" customimage="media/Arrow.png" url="{node15}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Primary School" description="" datetime="29/05/2017 3:01 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node14"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-342.26" customimage="media/Arrow.png" tilt="7.75" distance3D="662.943" title="Primary School" description="" skinid="Hotspot 1" url="{node15}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-140.17" tilt="-1.06" title="" description="" skinid="ht_image" url="images/Primary school students.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <panorama id="node15">
-    <input overlap="1" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2888" levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" height="2888" levelingroll="0">
-      <level width="2888" preload="0" height="2888" predecode="0"/>
-      <level width="1444" preload="0" height="1444" predecode="0"/>
-      <level width="722" preload="0" height="722" predecode="0"/>
-      <level width="361" preload="1" height="361" predecode="1"/>
+    <input levelingroll="0" height="2888" levelbiashidpi="1.000" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelbias="0.400" levelingpitch="0" width="2888" leveltilesize="510">
+      <level preload="0" predecode="0" height="2888" width="2888"/>
+      <level preload="0" predecode="0" height="1444" width="1444"/>
+      <level preload="0" predecode="0" height="722" width="722"/>
+      <level preload="1" predecode="1" height="361" width="361"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start fov="80" tilt="-11.18" pan="-93.36" projection="4"/>
-      <flyin fov="93.94" tilt="-6.56" pan="-91.42" projection="4"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max scaletofit="1" fov="120" fovfisheye="360" tilt="90" pan="360" fovstereographic="270"/>
+    <view pannorth="0" fovmode="0">
+      <start pan="-93.36" projection="4" tilt="-11.18" fov="80"/>
+      <flyin pan="-91.42" projection="4" tilt="-6.56" fov="93.94"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max pan="360" fovstereographic="270" tilt="90" scaletofit="1" fovfisheye="360" fov="120"/>
     </view>
-    <userdata comment="" nodeid="node15" description="" longitude="" author="" latitude="" title="Primary School" source="" info="" tags="AIC" customnodeid="" datetime="29/05/2017 3:04 PM" heading="0" copyright=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label wordwrap="1" width="180" textcolor="0x000000" borderradius="1" border="1" borderalpha="1" bordercolor="0x000000" textalpha="1" background="1" backgroundcolor="0xffffff" height="20" enabled="1" backgroundalpha="1"/>
-      <polystyle borderalpha="1" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098"/>
-      <hotspot customimageheight="94" id="Point01" fov="10" description="" tilt="-6.58" pan="-225.67" title="Entrance" customimage="media/Arrow.png" url="{node20}" target="" distance3D="662.943" use3D="0" skinid="Hotspot 1" customimagewidth="116"/>
+    <userdata tags="AIC" comment="" author="" copyright="" title="Primary School" description="&#xa;AIC Recognises that our students are from diverse backgrounds, but also individuals with their own special characteristics&#xa;&#xa;" datetime="29/05/2017 3:04 PM" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="node15"/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label textalpha="1" backgroundalpha="1" textcolor="0x000000" backgroundcolor="0xffffff" bordercolor="0x000000" background="1" borderalpha="1" borderradius="1" enabled="1" wordwrap="1" height="20" border="1" width="180"/>
+      <polystyle backgroundalpha="0.25098" backgroundcolor="0x0000ff" bordercolor="0x0000ff" mode="0" borderalpha="1" handcursor="1"/>
+      <hotspot pan="-225.67" customimage="media/Arrow.png" tilt="-6.58" distance3D="662.943" title="Entrance" description="" skinid="Hotspot 1" url="{node20}" id="Point01" customimagewidth="116" target="" customimageheight="94" use3D="0" fov="10"/>
+      <hotspot pan="-319.16" tilt="-2.17" title="" description="" skinid="ht_image" url="images/Explicit Learning.jpg" id="Point02" target=""/>
+      <hotspot pan="-335.23" tilt="-1.84" title="" description="" skinid="ht_image" url="images/Story time.jpg" id="Point03" target=""/>
     </hotspots>
     <media/>
-    <transition blendcolor="0x000000" softedge="0" zoomafterinfov="90" type="crossdissolve" zoomin="2" blendtime="1" zoomout="2" zoomoutpause="0" zoomspeed="2" enabled="1" zoomafteroutfov="20" zoomfov="20"/>
-    <flyintransition speed="2.00" enabled="1"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control hideabout="0" invertcontrol="1" simulatemass="1" lockedkeyboard="0" sensitivity="8" dblclickfullscreen="0" contextprojections="0" speedwheel="1" lockedmouse="0" rubberband="0" lockedkeyboardzoom="0" invertwheel="0" lockedwheel="0" contextfullscreen="1"/>
+    <transition zoomin="2" zoomafteroutfov="20" blendtime="1" type="crossdissolve" softedge="0" blendcolor="0x000000" enabled="1" zoomoutpause="0" zoomfov="20" zoomafterinfov="90" zoomout="2" zoomspeed="2"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control invertwheel="0" speedwheel="1" rubberband="0" lockedkeyboardzoom="0" simulatemass="1" lockedmouse="0" invertcontrol="1" lockedkeyboard="0" contextprojections="0" hideabout="0" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata comment="" nodeid="master" description="" longitude="" author="" latitude="" title="" source="" info="" tags="" customnodeid="" datetime="" heading="0" copyright=""/>
+    <userdata tags="" comment="" author="" copyright="" title="" description="" datetime="" source="" longitude="" heading="0" customnodeid="" info="" latitude="" nodeid="master"/>
   </masternode>
 </tour>
