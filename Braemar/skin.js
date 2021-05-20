@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: Braemar.ggsk
-// Generated 2021-05-20T11:47:49
+// Generated 2021-05-20T13:58:58
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
@@ -12719,6 +12719,31 @@ function pano2vrSkin(player,base) {
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
+		me._welcome.ggNodeChange=function () {
+			if (me._welcome.ggApiPlayer) {
+				if (me._welcome.ggApiPlayerType == 'youtube') {
+					let youtubeMediaFunction = function() {
+						me._welcome.ggApiPlayer.pauseVideo();
+						me._welcome.ggApiPlayer.seekTo(0);
+					};
+					if (me._welcome.ggApiPlayerReady) {
+						youtubeMediaFunction();
+					} else {
+						let youtubeApiInterval = setInterval(function() {
+							if (me._welcome.ggApiPlayerReady) {
+								clearInterval(youtubeApiInterval);
+								youtubeMediaFunction();
+							}
+						}, 100);
+					}
+				} else if (me._welcome.ggApiPlayerType == 'vimeo') {
+					me._welcome.ggApiPlayer.pause();
+					me._welcome.ggApiPlayer.setCurrentTime(0);
+				}
+			} else {
+				player.stopSound("Welcome");
+			}
+		}
 		me._welcome_guide.appendChild(me._welcome);
 		el=me._svg_21=document.createElement('div');
 		els=me._svg_21__img=document.createElement('img');
@@ -13004,6 +13029,31 @@ function pano2vrSkin(player,base) {
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
+		me._middle.ggNodeChange=function () {
+			if (me._middle.ggApiPlayer) {
+				if (me._middle.ggApiPlayerType == 'youtube') {
+					let youtubeMediaFunction = function() {
+						me._middle.ggApiPlayer.pauseVideo();
+						me._middle.ggApiPlayer.seekTo(0);
+					};
+					if (me._middle.ggApiPlayerReady) {
+						youtubeMediaFunction();
+					} else {
+						let youtubeApiInterval = setInterval(function() {
+							if (me._middle.ggApiPlayerReady) {
+								clearInterval(youtubeApiInterval);
+								youtubeMediaFunction();
+							}
+						}, 100);
+					}
+				} else if (me._middle.ggApiPlayerType == 'vimeo') {
+					me._middle.ggApiPlayer.pause();
+					me._middle.ggApiPlayer.setCurrentTime(0);
+				}
+			} else {
+				player.stopSound("Middle");
+			}
+		}
 		me._middle_school.appendChild(me._middle);
 		el=me._svg_20=document.createElement('div');
 		els=me._svg_20__img=document.createElement('img');
@@ -13287,6 +13337,31 @@ function pano2vrSkin(player,base) {
 				var ph=this.parentNode.clientHeight;
 				var h=this.offsetHeight;
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
+		}
+		me._senior.ggNodeChange=function () {
+			if (me._senior.ggApiPlayer) {
+				if (me._senior.ggApiPlayerType == 'youtube') {
+					let youtubeMediaFunction = function() {
+						me._senior.ggApiPlayer.pauseVideo();
+						me._senior.ggApiPlayer.seekTo(0);
+					};
+					if (me._senior.ggApiPlayerReady) {
+						youtubeMediaFunction();
+					} else {
+						let youtubeApiInterval = setInterval(function() {
+							if (me._senior.ggApiPlayerReady) {
+								clearInterval(youtubeApiInterval);
+								youtubeMediaFunction();
+							}
+						}, 100);
+					}
+				} else if (me._senior.ggApiPlayerType == 'vimeo') {
+					me._senior.ggApiPlayer.pause();
+					me._senior.ggApiPlayer.setCurrentTime(0);
+				}
+			} else {
+				player.stopSound("Senior");
 			}
 		}
 		me._senior_school.appendChild(me._senior);
@@ -13831,27 +13906,6 @@ function pano2vrSkin(player,base) {
 			player.setVariableValue('pos_fullscreen', player.getVariableValue('pos_fullscreen') + Number("1"));
 			player.setVariableValue('pos_thumbnail', Number("0"));
 			player.setVariableValue('pos_thumbnail', player.getVariableValue('pos_thumbnail') + Number("2"));
-			if (me._senior.ggApiPlayer) {
-				if (me._senior.ggApiPlayerType == 'youtube') {
-					let youtubeMediaFunction = function() {
-						me._senior.ggApiPlayer.playVideo();
-					};
-					if (me._senior.ggApiPlayerReady) {
-						youtubeMediaFunction();
-					} else {
-						let youtubeApiInterval = setInterval(function() {
-							if (me._senior.ggApiPlayerReady) {
-								clearInterval(youtubeApiInterval);
-								youtubeMediaFunction();
-							}
-						}, 100);
-					}
-				} else if (me._senior.ggApiPlayerType == 'vimeo') {
-					me._senior.ggApiPlayer.play();
-				}
-			} else {
-				player.playSound("Senior","1");
-			}
 		});
 	};
 	this.hotspotProxyClick=function(id, url) {
