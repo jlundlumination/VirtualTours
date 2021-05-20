@@ -281,7 +281,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label bordercolor="0x000000" enabled="1" textalpha="1" background="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" borderalpha="1" width="180" height="20" backgroundalpha="1"/>
       <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.25098"/>
-      <hotspot id="Point01" skinid="Hotspot 1" title="Campus Journey" target="" pan="-250.34" tilt="-2.89" description="" url="{node17}"/>
+      <hotspot id="Point01" skinid="Hotspot 1" title="Bus Journey" target="" pan="-250.34" tilt="-2.89" description="" url="{node17}"/>
     </hotspots>
     <media/>
     <transition enabled="1" zoomin="2" zoomoutpause="0" zoomafteroutfov="20" blendtime="1" zoomfov="20" type="crossdissolve" zoomspeed="2" blendcolor="0x000000" zoomafterinfov="90" softedge="0" zoomout="2"/>
@@ -303,7 +303,7 @@
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="120"/>
     </view>
-    <userdata altitude="690.00" latitude="-37.361763" info="" longitude="144.571502" title="Campus Journey" copyright="" source="" comment="" datetime="26/04/2021 1:42 PM" nodeid="node17" author="" heading="0" description="" customnodeid="" tags="Edited"/>
+    <userdata altitude="690.00" latitude="-37.361763" info="" longitude="144.571502" title="Bus Journey" copyright="" source="" comment="" datetime="26/04/2021 1:42 PM" nodeid="node17" author="" heading="0" description="" customnodeid="" tags="Edited"/>
     <hotspots wordwrap="1" width="180" height="20">
       <label bordercolor="0x000000" enabled="1" textalpha="1" background="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" borderalpha="1" width="180" height="20" backgroundalpha="1"/>
       <polystyle bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" backgroundalpha="0.25098"/>
