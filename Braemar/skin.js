@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: Braemar.ggsk
-// Generated 2021-06-16T15:59:16
+// Generated 2021-06-16T16:52:25
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
