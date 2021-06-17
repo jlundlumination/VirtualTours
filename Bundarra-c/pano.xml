@@ -134,8 +134,8 @@
       <label backgroundalpha="1" borderalpha="1" borderradius="1" textalpha="1" border="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" height="20"/>
       <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot id="Point01" customimageheight="94" use3D="0" title="Creative Arts" pan="-352.53" distance3D="662.943" url="{node9}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="2.89" target="" description="" customimage="media/Arrow3D.png"/>
-      <hotspot id="Point02" title="" pan="-220" url="images/shed.jpg" skinid="ht_image" tilt="5" target="" description=""/>
-      <hotspot id="Point03" title="" pan="-220" url="images/IMG_0859.JPG" skinid="ht_image" tilt="-5" target="" description=""/>
+      <hotspot id="Point02" title="" pan="-220" url="images/shed.jpg" skinid="ht_image" tilt="-5" target="" description=""/>
+      <hotspot id="Point03" title="" pan="-147.26" url="images/IMG_0859.JPG" skinid="ht_image" tilt="-5" target="" description=""/>
       <hotspot id="Point04" title="" pan="-309.73" url="images/IMG_0218.JPG" skinid="ht_image" tilt="-7" target="" description=""/>
       <hotspot id="Point05" title="" pan="-338.37" url="images/IMG_0263.JPG" skinid="ht_image" tilt="-7" target="" description=""/>
       <hotspot id="Point06" title="" pan="-270.33" url="images/IMG_0270.JPG" skinid="ht_image" tilt="-7" target="" description=""/>
@@ -198,12 +198,12 @@
       <label backgroundalpha="1" borderalpha="1" borderradius="1" textalpha="1" border="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" height="20"/>
       <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot id="Point01" customimageheight="94" use3D="0" title="Welding" pan="-45.95" distance3D="662.943" url="{node5}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-0.27" target="" description="" customimage="media/Arrow3D.png"/>
-      <hotspot id="Point02" title="Farm" pan="-17" url="images/farm.jpg" skinid="ht_image" tilt="5" target="" description=""/>
+      <hotspot id="Point02" title="Farm" pan="-27" url="images/farm.jpg" skinid="ht_image" tilt="0" target="" description=""/>
       <hotspot id="Point03" title="Agricultural Program" pan="-97.97" url="" skinid="ht_info" tilt="4.4" target="" description="Agriculture and Primary Industries help to deliver key learning outcomes as students develop a strong understanding of ‘paddock to plate’ lifestyle.&#xa;Initiatives such as Junior Cattle Club and Smart Farms give students the ability to compete in local and state competitions. Recent success in the Hoof and Hook competition is reflective of the students' engagement."/>
-      <hotspot id="Point04" title="" pan="-17" url="images/IMG_0398.JPG" skinid="ht_image" tilt="-5" target="" description=""/>
+      <hotspot id="Point04" title="" pan="-17" url="images/IMG_0398.JPG" skinid="ht_image" tilt="0" target="" description=""/>
       <hotspot id="Point05" title="" pan="-164" url="images/IMG_0870.JPG" skinid="ht_image" tilt="0" target="" description=""/>
-      <hotspot id="Point06" title="" pan="-7" url="images/IMG_0779.JPG" skinid="ht_image" tilt="-5" target="" description=""/>
-      <hotspot id="Point07" title="" pan="-7" url="images/IMG_0776.JPG" skinid="ht_image" tilt="5" target="" description=""/>
+      <hotspot id="Point06" title="" pan="-7" url="images/IMG_0779.JPG" skinid="ht_image" tilt="0" target="" description=""/>
+      <hotspot id="Point07" title="" pan="7" url="images/IMG_0776.JPG" skinid="ht_image" tilt="0" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -232,9 +232,9 @@
       <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot id="Point01" customimageheight="94" use3D="0" title="Playground" pan="-288.19" distance3D="662.943" url="{node16}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-8.23" target="" description="" customimage="media/Arrow3D.png"/>
       <hotspot id="Point02" title="TAS Courses" pan="-321.66" url="" skinid="ht_info" tilt="0.1" target="" description="TAS courses are studied at school with our qualified teachers. &#xa;&#xa;Students are able to make industry connections through work placements.&#xa;&#xa;Students have the opportunity to engage in VET courses specialising in Construction, Primary Industries, Design and Technology and Small Motors."/>
-      <hotspot id="Point03" title="" pan="-130" url="images/IMG_0753.JPG" skinid="ht_image" tilt="-5" target="" description=""/>
-      <hotspot id="Point04" title="" pan="-130" url="images/IMG_0754.JPG" skinid="ht_image" tilt="5" target="" description=""/>
-      <hotspot id="Point05" title="" pan="-130" url="images/IMG_0756.JPG" skinid="ht_image" tilt="-15" target="" description=""/>
+      <hotspot id="Point03" title="" pan="-144.14" url="images/IMG_0753.JPG" skinid="ht_image" tilt="-9.58" target="" description=""/>
+      <hotspot id="Point04" title="" pan="-126.65" url="images/IMG_0754.JPG" skinid="ht_image" tilt="-3.33" target="" description=""/>
+      <hotspot id="Point05" title="" pan="-108.33" url="images/IMG_0756.JPG" skinid="ht_image" tilt="-5.41" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -266,6 +266,7 @@
       <hotspot id="Point03" title="" pan="-35.99" url="images/yr 910 lunch.jpg" skinid="ht_image" tilt="0.84" target="" description=""/>
       <hotspot id="Point04" title="" pan="-67" url="images/basketball.jpg" skinid="ht_image" tilt="0.749999" target="" description=""/>
       <hotspot id="Point05" title="Playground Area" pan="-311.17" url="" skinid="ht_info" tilt="17.93" target="" description="A family environment is provided for students to enjoy their morning tea and lunch.&#xa;&#xa;Students K-12 enjoy utilising the spaces provided. The resurfed multi-sport court, sand-pit and play equipment are popular.&#xa;&#xa;"/>
+      <hotspot id="Point06" title="" pan="-297.72" url="images/slide.jpg" skinid="ht_image" tilt="-6.9" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -297,6 +298,7 @@
       <hotspot id="Point03" title="Stages of Learning" pan="-40.64" url="" skinid="ht_info" tilt="-10.79" target="" description="Students are provided with the best start to school life in our engaging and vibrant classroom.&#xa;&#xa;Teachers specialise in the teaching of literacy and numeracy to support life long learners and strong foundations, and we work closely with the local Bundarra Pre-school to ensure our students have the best start to Kindergarten."/>
       <hotspot id="Point04" title="" pan="-21.1" url="images/k1 Shared reading.jpg" skinid="ht_image" tilt="-9.73" target="" description=""/>
       <hotspot id="Point05" title="" pan="-214.19" url="images/K1 reading with teacher.jpg" skinid="ht_image" tilt="-2.38" target="" description=""/>
+      <hotspot id="Point06" title="" pan="-158.75" url="images/K Maths.jpg" skinid="ht_image" tilt="-22.21" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -326,6 +328,7 @@
       <hotspot id="Point01" customimageheight="94" use3D="0" title="" pan="-232.26" distance3D="662.943" url="{node17}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-6.26" target="" description="" customimage="media/Arrow3D.png"/>
       <hotspot id="Point03" title="Quality Lessons" pan="-31.67" url="" skinid="ht_info" tilt="1.61" target="" description="All our classrooms have mobile laptop labs and are equipped with the latest technology, including interactive whiteboards, iPads, and coding robots. &#xa;&#xa;Teachers work together to provide quality lessons to students.&#xa;&#xa;"/>
       <hotspot id="Point02" title="Stages of Learning" pan="-198.98" url="" skinid="ht_info" tilt="-3.03" target="" description="Stage 1 includes Kindergarten to Year 2 (Kindergarten is referred to as Early Stage 1).&#xa;Stage 2 includes Years 3 and 4.&#xa;Stage 3 includes Years 5 and 6.&#xa;Stage 4 includes Years 7 and 8.&#xa;Stage 5 includes Years 9 and 10.&#xa;Stage 6 includes Years 11 and 12.&#xa;Students in Year 7 are introduced to the eight key learning areas that they will study until Year 10."/>
+      <hotspot id="Point04" title="" pan="-138.96" url="images/56 debating.jpg" skinid="ht_image" tilt="-0.8" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -353,7 +356,8 @@
       <label backgroundalpha="1" borderalpha="1" borderradius="1" textalpha="1" border="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" height="20"/>
       <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot id="Point01" customimageheight="94" use3D="0" title="" pan="-216.97" distance3D="662.943" url="{node1}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-2.27" target="" description="" customimage="media/Arrow3D.png"/>
-      <hotspot id="Point02" title="Quality Teaching" pan="-57.43" url="" skinid="ht_info" tilt="0.05" target="" description="Quality Teaching and curriculum and delivery is a priority at Bundarra Central School.&#xa;Staff regularly utilise data to track, assess and plan student learning outcomes.&#xa;The K-12 staff have whole school professional learning to work together in an integrated approach to curriculum planning and delivery responsive to student needs.&#xa;"/>
+      <hotspot id="Point02" title="Quality Teaching" pan="-15.44" url="" skinid="ht_info" tilt="-6.46" target="" description="Quality Teaching and curriculum and delivery is a priority at Bundarra Central School.&#xa;Staff regularly utilise data to track, assess and plan student learning outcomes.&#xa;The K-12 staff have whole school professional learning to work together in an integrated approach to curriculum planning and delivery responsive to student needs.&#xa;"/>
+      <hotspot id="Point03" title="" pan="-56.29" url="images/23 smartboard.jpg" skinid="ht_image" tilt="-12.45" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -381,8 +385,9 @@
       <label backgroundalpha="1" borderalpha="1" borderradius="1" textalpha="1" border="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" height="20"/>
       <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot id="Point01" customimageheight="94" use3D="0" title="" pan="-63.7" distance3D="662.943" url="{node6}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-5.4" target="" description="" customimage="media/Arrow3D.png"/>
-      <hotspot id="Point02" title="HSC" pan="-347.79" url="" skinid="ht_info" tilt="-2.94" target="" description="Senior students can access a range of H.S.C courses and vocational education pathways. &#xa;&#xa;The school partnerships with The University of New England in a range of programs including Aboriginal transition days, Stage 6 Experience days, HSC Booster days and Science days at the school. These HSC courses are set and externally examined by NESA."/>
+      <hotspot id="Point02" title="HSC" pan="-329.89" url="" skinid="ht_info" tilt="-5.56" target="" description="Senior students can access a range of H.S.C courses and vocational education pathways. &#xa;&#xa;The school partnerships with The University of New England in a range of programs including Aboriginal transition days, Stage 6 Experience days, HSC Booster days and Science days at the school. These HSC courses are set and externally examined by NESA."/>
       <hotspot id="Point03" title="" pan="-77.09" url="images/stage 6.jpg" skinid="ht_image" tilt="-5.4" target="" description=""/>
+      <hotspot id="Point04" title="" pan="-12.03" url="images/stage 6 study.jpg" skinid="ht_image" tilt="-22.99" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -413,6 +418,10 @@
       <hotspot id="Point02" title="" pan="-274.09" url="images/woodwork 2.jpg" skinid="ht_image" tilt="-10.35" target="" description=""/>
       <hotspot id="Point03" title="" pan="-214.18" url="images/woodwork.jpg" skinid="ht_image" tilt="-21.52" target="" description=""/>
       <hotspot id="Point04" title="Programs" pan="-281.54" url="" skinid="ht_info" tilt="3.32" target="" description="This space is utilised by year 7-8 students to gain experience and develop skills. Further education can be undertaken in later years through specialisation.&#xa;&#xa;A wide range of subjects are offered ranging from practical to theoretical classes.&#xa;&#xa;"/>
+      <hotspot id="Point05" title="" pan="-133.57" url="images/woodwork 2 (2).jpg" skinid="ht_image" tilt="-23.33" target="" description=""/>
+      <hotspot id="Point06" title="" pan="-74.57" url="images/IMG_0696.jpg" skinid="ht_image" tilt="-28.73" target="" description=""/>
+      <hotspot id="Point07" title="" pan="-321.3" url="images/IMG_0761.jpg" skinid="ht_image" tilt="-33.05" target="" description=""/>
+      <hotspot id="Point08" title="" pan="-237.1" url="images/IMG_0709.jpg" skinid="ht_image" tilt="-10.24" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
