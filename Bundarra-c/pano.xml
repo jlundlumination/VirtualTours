@@ -358,6 +358,7 @@
       <hotspot id="Point01" customimageheight="94" use3D="0" title="" pan="-216.97" distance3D="662.943" url="{node1}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-2.27" target="" description="" customimage="media/Arrow3D.png"/>
       <hotspot id="Point02" title="Quality Teaching" pan="-15.44" url="" skinid="ht_info" tilt="-6.46" target="" description="Quality Teaching and curriculum and delivery is a priority at Bundarra Central School.&#xa;Staff regularly utilise data to track, assess and plan student learning outcomes.&#xa;The K-12 staff have whole school professional learning to work together in an integrated approach to curriculum planning and delivery responsive to student needs.&#xa;"/>
       <hotspot id="Point03" title="" pan="-56.29" url="images/23 smartboard.jpg" skinid="ht_image" tilt="-12.45" target="" description=""/>
+      <hotspot id="Point04" title="" pan="-313.76" url="images/23 reading.jpg" skinid="ht_image" tilt="-2.55" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
@@ -449,9 +450,10 @@
       <label backgroundalpha="1" borderalpha="1" borderradius="1" textalpha="1" border="1" wordwrap="1" width="180" textcolor="0x000000" bordercolor="0x000000" background="1" backgroundcolor="0xffffff" enabled="1" height="20"/>
       <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
       <hotspot id="Point01" customimageheight="94" use3D="0" title="" pan="-148.67" distance3D="662.943" url="{node15}" customimagewidth="116" fov="10" skinid="Hotspot 1" tilt="-5.43" target="" description="" customimage="media/Arrow3D.png"/>
-      <hotspot id="Point02" title="" pan="-215.18" url="images/yr 10 hospitality.jpg" skinid="ht_image" tilt="-22" target="" description=""/>
+      <hotspot id="Point02" title="" pan="-145.45" url="images/yr 10 hospitality.jpg" skinid="ht_image" tilt="-26.35" target="" description=""/>
       <hotspot id="Point03" title="" pan="-355.7" url="images/hospitality.JPG" skinid="ht_image" tilt="-30.27" target="" description=""/>
       <hotspot id="Point04" title="Hospitality " pan="-342.58" url="" skinid="ht_info" tilt="-4.22" target="" description="The Hospitality students prepare and serve the luncheons for significant school events. &#xa;&#xa;Students utilise school grown produce to further understand the paddock to plate lifestyle.&#xa;&#xa;The School Café operates Wednesdays and Fridays . The cafe is run by our Hospitality and Food Technology classes."/>
+      <hotspot id="Point05" title="" pan="-203.53" url="images/hospitality 2.jpg" skinid="ht_image" tilt="-5.5" target="" description=""/>
     </hotspots>
     <media/>
     <transition zoomoutpause="0" softedge="0" zoomin="2" zoomafteroutfov="20" zoomfov="20" zoomout="2" type="crossdissolve" blendtime="1" blendcolor="0x000000" zoomspeed="2" zoomafterinfov="90" enabled="1"/>
