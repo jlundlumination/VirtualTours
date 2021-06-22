@@ -1,341 +1,341 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour apprev="18043" start="node11" appversion="6.1.11">
   <panorama id="node11">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="3" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3974" height="3974" levelingpitch="6" overlap="1" leveltilesize="510">
-      <level width="3974" height="3974" preload="0" predecode="0"/>
-      <level width="1987" height="1987" preload="0" predecode="0"/>
-      <level width="993" height="993" preload="0" predecode="0"/>
-      <level width="496" height="496" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3974" levelbias="0.400" levelbiashidpi="1.000" width="3974" levelingpitch="6" overlap="1" leveltilesize="510" levelingroll="3" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3974" width="3974" preload="0" predecode="0"/>
+      <level height="1987" width="1987" preload="0" predecode="0"/>
+      <level height="993" width="993" preload="0" predecode="0"/>
+      <level height="496" width="496" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="93.25" fov="75" projection="4" tilt="-7.96"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="93.25" tilt="-7.96" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node11" heading="0" datetime="1/07/2020 10:25 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-261.81" url="{node3}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-18.22"/>
-      <hotspot title="Glasshouse Cafe" skinid="ht_info" pan="-213.71" url="" target="" id="Point02" description="This is a meeting place for students where they gather in the morning before class to plan the day ahead. It is common to see students working independently or with their friends completing homework, revising work or planning assessment tasks. &#xa;&#xa;The Cafe is available during recess,  lunchtime and before school for purchases of food and serves coffee, hot chocolate and variety of delicious treats.&#xa;" tilt="7.04"/>
-      <hotspot title="Glasshouse Cafe" skinid="ht_video_youtube" pan="-146.7" url="AkzTgV335cA" target="" id="Point06" description="" tilt="7.35"/>
-      <hotspot title="Principal's Welcome" skinid="ht_video_youtube" pan="-261.55" url="GsBFOkwX7uc" target="" id="Point07" description="" tilt="4.26"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node11" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 10:25 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-261.81" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-18.22" use3D="1" description="" url="{node3}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-213.71" title="Glasshouse Cafe" id="Point02" tilt="7.34" description="This is a meeting place for students where they gather in the morning before class to plan the day ahead. It is common to see students working independently or with their friends completing homework, revising work or planning assessment tasks. &#xa;&#xa;The Cafe is available during recess,  lunchtime and before school for purchasing food, coffee, hot chocolate and a variety of delicious treats.&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-146.7" title="Glasshouse Cafe" id="Point06" tilt="7.35" description="" url="AkzTgV335cA"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-261.55" title="Principal's Welcome" id="Point07" tilt="4.26" description="" url="GsBFOkwX7uc"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node3">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3969" height="3969" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3969" height="3969" preload="0" predecode="0"/>
-      <level width="1984" height="1984" preload="0" predecode="0"/>
-      <level width="992" height="992" preload="0" predecode="0"/>
-      <level width="496" height="496" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3969" levelbias="0.400" levelbiashidpi="1.000" width="3969" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3969" width="3969" preload="0" predecode="0"/>
+      <level height="1984" width="1984" preload="0" predecode="0"/>
+      <level height="992" width="992" preload="0" predecode="0"/>
+      <level height="496" width="496" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-37.53" fov="75" projection="4" tilt="-4.66"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-37.53" tilt="-4.66" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="Information Service Centre" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node3" heading="0" datetime="1/07/2020 10:11 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-71.58" url="{node4}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-19.37"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-264.89" url="{node11}" customimagewidth="115" target="" fov="10" id="Point02" description="" distance3D="657.228" tilt="-21.93"/>
-      <hotspot title="Information Service Centre" skinid="ht_info" pan="-61.8" url="" target="" id="Point03" description="This is the central hub of the school. Senior students have access to digital and print resources eBooks, and audio books. Staff &amp; students have access to  ClickView, a digital content resource mapped to the NSW curriculum.&#xa;&#xa;The Learning and Support Team provide tutoring and well being services for all students.&#xa;&#xa;&#xa;" tilt="6.64"/>
-      <hotspot title="Information Service Centre" skinid="ht_video_youtube" pan="-352.83" url="A-GeT14mRd8" target="" id="Point04" description="" tilt="5.72"/>
-      <hotspot title="Tutoring " skinid="ht_video_youtube" pan="-220.12" url="NPme7pNTehU" target="" id="Point05" description="" tilt="-0.16"/>
-      <hotspot title="HSC Rules and Procedures" skinid="ht_url" pan="-319.85" url="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/hsc/rules-and-processes/rules-procedures-guide-students" target="_blank" id="Point06" description="" tilt="5.44"/>
-      <hotspot title="Tutors" skinid="ht_info" pan="-247.11" url="" target="" id="Point07" description="Former HSC students are employed as Tutors who support and guide students in a wide range of subjects. They can provide support in assessment tasks, time management, major projects and revision work. They have an appreciation of being a HSC student and can assist students in managing the HSC workload. Students use the  QR code to make bookings for Tutor support. " tilt="-27.45"/>
+    <userdata latitude="" heading="0" title="Information Service Centre" copyright="" comment="" author="" info="" nodeid="node3" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 10:11 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-71.58" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-19.37" use3D="1" description="" url="{node4}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-264.89" title="" customimage="media/SSCArrow3D-visited.png" id="Point02" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-21.93" use3D="1" description="" url="{node11}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-61.8" title="Information Service Centre" id="Point03" tilt="6.64" description="This is the central hub of the school. Senior students have access to digital and print resources eBooks, and audio books. Staff &amp; students have access to ClickView, a digital content resource mapped to the NSW curriculum.&#xa;&#xa;The Learning and Support Team provide tutoring and well being services for all students.&#xa;&#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-352.83" title="Information Service Centre" id="Point04" tilt="5.72" description="" url="A-GeT14mRd8"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-220.12" title="Tutoring " id="Point05" tilt="-0.16" description="" url="NPme7pNTehU"/>
+      <hotspot target="_blank" skinid="ht_url" pan="-319.85" title="HSC Rules and Procedures" id="Point06" tilt="5.44" description="" url="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/hsc/rules-and-processes/rules-procedures-guide-students"/>
+      <hotspot target="" skinid="ht_info" pan="-247.11" title="Tutors" id="Point07" tilt="-27.45" description="Former HSC students are employed as Tutors who support and guide students in a wide range of subjects. They can provide support in assessment tasks, time management, major projects and revision work. They have an appreciation of being a HSC student and can assist students in managing the HSC workload. Students use the QR code to make bookings for Tutor support. " url=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node4">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3966" height="3966" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3966" height="3966" preload="0" predecode="0"/>
-      <level width="1983" height="1983" preload="0" predecode="0"/>
-      <level width="991" height="991" preload="0" predecode="0"/>
-      <level width="495" height="495" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3966" levelbias="0.400" levelbiashidpi="1.000" width="3966" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3966" width="3966" preload="0" predecode="0"/>
+      <level height="1983" width="1983" preload="0" predecode="0"/>
+      <level height="991" width="991" preload="0" predecode="0"/>
+      <level height="495" width="495" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-30.72" fov="75" projection="4" tilt="-18.91"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-30.72" tilt="-18.91" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="Breakout Areas" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node4" heading="0" datetime="1/07/2020 11:57 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-72.24" url="{node1}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-29.1"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-230.28" url="{node3}" customimagewidth="115" target="" fov="10" id="Point02" description="" distance3D="657.228" tilt="-27.13"/>
-      <hotspot title="Breakout Areas" skinid="ht_info" pan="-1.86" url="" target="" id="Point03" description="The school has an open plan design consisting of three main buildings. Each of these buildings have large breakout areas surrounded by classrooms.  Teachers use these areas when planning Project Based Learning for their classes. Students can also work independently in these breakout areas during their study sessions. &#xa;&#xa;" tilt="2.71"/>
-      <hotspot title="Breakout Areas   part I" skinid="ht_video_youtube" pan="-49.65" url="JRl7H5V2Bjo" target="" id="Point04" description="" tilt="0.07"/>
-      <hotspot title="Breakout Spaces  - part II" skinid="ht_video_youtube" pan="-136.23" url="gHvvvrlqAao" target="" id="Point05" description="" tilt="1.48"/>
+    <userdata latitude="" heading="0" title="Breakout Areas" copyright="" comment="" author="" info="" nodeid="node4" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 11:57 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-72.24" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-29.1" use3D="1" description="" url="{node1}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-230.28" title="" customimage="media/SSCArrow3D-visited.png" id="Point02" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-27.13" use3D="1" description="" url="{node3}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-1.86" title="Breakout Areas" id="Point03" tilt="2.71" description="The school has an open plan design consisting of three main buildings. Each of these buildings have large breakout areas surrounded by classrooms.  Teachers use these areas when planning Project Based Learning for their classes. Students can also work independently in these breakout areas during their study sessions. &#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-49.65" title="Breakout Areas   part I" id="Point04" tilt="0.07" description="" url="JRl7H5V2Bjo"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-136.23" title="Breakout Spaces  - part II" id="Point05" tilt="1.48" description="" url="gHvvvrlqAao"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node1">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3966" height="3966" levelingpitch="-3" overlap="1" leveltilesize="510">
-      <level width="3966" height="3966" preload="0" predecode="0"/>
-      <level width="1983" height="1983" preload="0" predecode="0"/>
-      <level width="991" height="991" preload="0" predecode="0"/>
-      <level width="495" height="495" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3966" levelbias="0.400" levelbiashidpi="1.000" width="3966" levelingpitch="-3" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3966" width="3966" preload="0" predecode="0"/>
+      <level height="1983" width="1983" preload="0" predecode="0"/>
+      <level height="991" width="991" preload="0" predecode="0"/>
+      <level height="495" width="495" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="23.66" fov="75" projection="4" tilt="-7.46"/>
-      <flyin pan="13.68" fov="70" projection="4" tilt="-12.34"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="23.66" tilt="-7.46" fov="75"/>
+      <flyin projection="4" pan="13.68" tilt="-12.34" fov="70"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node1" heading="0" datetime="1/07/2020 12:12 PM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-117.12" url="{node4}" customimagewidth="115" target="" fov="10" id="Point01" description="" distance3D="657.228" tilt="-26.93"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-304.16" url="{node6}" customimagewidth="116" target="" fov="10" id="Point02" description="" distance3D="662.943" tilt="-22.67"/>
-      <hotspot title="VET - Hospitality" skinid="ht_info" pan="-56.53" url="" target="" id="Point03" description="Students can choose from two strands; Kitchen Operations and Food and Beverage.&#xa;Hospitality students complete their 70 hours of Workplace Learning in a variety of Hospitality establishments such as 5 star hotels in the Sydney CBD. They are also involved in events held at school.&#xa;&#xa;" tilt="6.73"/>
-      <hotspot title="VET Courses&#xa;" skinid="ht_info" pan="-326.41" url="" target="" id="Point05" description="Blackwattle Bay Campus delivers a wide range of vocational education and training (VET) courses.&#xa;These are Competency Based Assessment and Australian Qualification Framework AQF is recognised by Industry and Employers throughout Australia.&#xa;&#xa;VET students are required to complete 70 hours of workplace learning over two years. " tilt="6.62"/>
-      <hotspot title="NESA VET Curriculum Frameworks " skinid="ht_url" pan="-333.24" url="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet" target="_blank" id="Point06" description="" tilt="6.54"/>
-      <hotspot title="Business&#xa;Retail Financial Services &#xa;" skinid="ht_video_youtube" pan="-147.46" url="WVtWgm2WwSU" target="" id="Point07" description="" tilt="0.76"/>
-      <hotspot title="Courses" skinid="ht_info" pan="-216.48" url="" target="" id="Point04" description="Courses include&#xa;Business Services&#xa;Construction &#xa;Entertainment Industry&#xa;Financial Services &#xa;Hospitality&#xa;Information and Digital Technology&#xa;Retail  Services" tilt="3.1"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node1" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 12:12 PM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-117.12" title="" customimage="media/SSCArrow3D-visited.png" id="Point01" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-26.93" use3D="1" description="" url="{node4}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-304.16" title="" customimage="media/SSCArrow3D.png" id="Point02" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-22.67" use3D="1" description="" url="{node6}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-56.53" title="VET - Hospitality" id="Point03" tilt="6.73" description="Students can choose from two strands: Kitchen Operations, Food and Beverage.&#xa;Hospitality students complete their 70 hours of Workplace Learning in a variety of Hospitality establishments such as 5 star hotels in the Sydney CBD. They are also involved in events held at school.&#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_info" pan="-326.41" title="VET Courses&#xa;" id="Point05" tilt="6.62" description="Blackwattle Bay Campus delivers a wide range of vocational education and training (VET) courses.&#xa;These are Competency Based Assessment and Australian Qualification Framework (AQF) is recognised by industry and employers throughout Australia.&#xa;&#xa;VET students are required to complete 70 hours of workplace learning over two years. " url=""/>
+      <hotspot target="_blank" skinid="ht_url" pan="-333.24" title="NESA VET Curriculum Frameworks " id="Point06" tilt="6.54" description="" url="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/stage-6-learning-areas/vet"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-147.46" title="Business&#xa;Retail Financial Services &#xa;" id="Point07" tilt="0.76" description="" url="WVtWgm2WwSU"/>
+      <hotspot target="" skinid="ht_info" pan="-216.48" title="Courses" id="Point04" tilt="3.1" description="Courses include&#xa;Business Services&#xa;Construction &#xa;Entertainment Industry&#xa;Financial Services &#xa;Hospitality&#xa;Hospitality 2&#xa;Information and Digital Technology&#xa;Retail Services" url=""/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node6">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3983" height="3983" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3983" height="3983" preload="0" predecode="0"/>
-      <level width="1991" height="1991" preload="0" predecode="0"/>
-      <level width="995" height="995" preload="0" predecode="0"/>
-      <level width="497" height="497" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3983" levelbias="0.400" levelbiashidpi="1.000" width="3983" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3983" width="3983" preload="0" predecode="0"/>
+      <level height="1991" width="1991" preload="0" predecode="0"/>
+      <level height="995" width="995" preload="0" predecode="0"/>
+      <level height="497" width="497" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-22.56" fov="75" projection="4" tilt="-7.11"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-22.56" tilt="-7.11" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node6" heading="0" datetime="1/07/2020 11:12 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-180.82" url="{node1}" customimagewidth="115" target="" fov="10" id="Point01" description="" distance3D="657.228" tilt="-25.45"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-10.18" url="{node8}" customimagewidth="116" target="" fov="10" id="Point02" description="" distance3D="662.943" tilt="-23.95"/>
-      <hotspot title="Construction" skinid="ht_info" pan="-36.83" url="" target="" id="Point03" description="The VET construction team have collaborated with the School Environment Team and Indigenous Team to design and construct an Indigenous Garden.  Students involved in the project can use these hours to contribute to their workplace learning. The school was successful in obtaining a grant from a community source. &#xa;&#xa;" tilt="3.2"/>
-      <hotspot title="Construction (VET)" skinid="ht_video_youtube" pan="-42.95" url="gJHwqXeo3I4" target="" id="Point04" description="" tilt="2.97"/>
-      <hotspot title="Entertainment Industry" skinid="ht_info" pan="-112.78" url="" target="" id="Point05" description="VET Entertainment students develop skills in sound and lighting and have access to a range of industry-specific equipment to build skills for the workforce. &#xa;They can undertake workplace learning at theatres, sound studios, and backstage in the CBD.&#xa;&#xa;" tilt="2.23"/>
-      <hotspot title="Entertainment Industry VET" skinid="ht_video_youtube" pan="-118.04" url="ju_41sLNSlg" target="https://youtu.be/ju_41sLNSlg" id="Point06" description="" tilt="6.43"/>
-      <hotspot title="" skinid="ht_image" pan="-128.7" url="images/Entertainment Image 2.JPG" target="" id="Point08" description="" tilt="2.11"/>
-      <hotspot title="Entertainment Promo Video ROSIE NICOLE ELIAS STEPHANIE LOUIS" skinid="ht_video_youtube" pan="-124.21" url="yJFppveEPEI" target="" id="Point07" description="" tilt="6.31"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node6" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 11:12 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-180.82" title="" customimage="media/SSCArrow3D-visited.png" id="Point01" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-25.45" use3D="1" description="" url="{node1}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-10.18" title="" customimage="media/SSCArrow3D.png" id="Point02" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-23.95" use3D="1" description="" url="{node8}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-36.83" title="Construction" id="Point03" tilt="3.2" description="The VET construction team have collaborated with the School Environment Team and Indigenous Team to design and construct an Indigenous Garden.  Students involved in the project can use these hours to contribute to their workplace learning. The school was successful in obtaining a grant from a community source. &#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-42.95" title="Construction (VET)" id="Point04" tilt="2.97" description="" url="gJHwqXeo3I4"/>
+      <hotspot target="" skinid="ht_info" pan="-112.78" title="Entertainment Industry" id="Point05" tilt="2.23" description="VET Entertainment students develop skills in sound and lighting and have access to a range of industry-specific equipment to build skills for the workforce. &#xa;They can undertake workplace learning at theatres, sound studios, and backstage in the CBD.&#xa;&#xa;" url=""/>
+      <hotspot target="https://youtu.be/ju_41sLNSlg" skinid="ht_video_youtube" pan="-118.04" title="Entertainment Industry VET" id="Point06" tilt="6.43" description="" url="ju_41sLNSlg"/>
+      <hotspot target="" skinid="ht_image" pan="-128.7" title="" id="Point08" tilt="2.11" description="" url="images/Entertainment Image 2.JPG"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-124.21" title="Entertainment Promo Video ROSIE NICOLE ELIAS STEPHANIE LOUIS" id="Point07" tilt="6.31" description="" url="yJFppveEPEI"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node8">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3974" height="3974" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3974" height="3974" preload="0" predecode="0"/>
-      <level width="1987" height="1987" preload="0" predecode="0"/>
-      <level width="993" height="993" preload="0" predecode="0"/>
-      <level width="496" height="496" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3974" levelbias="0.400" levelbiashidpi="1.000" width="3974" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3974" width="3974" preload="0" predecode="0"/>
+      <level height="1987" width="1987" preload="0" predecode="0"/>
+      <level height="993" width="993" preload="0" predecode="0"/>
+      <level height="496" width="496" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-45.47" fov="75" projection="4" tilt="-7.83"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-45.47" tilt="-7.83" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node8" heading="0" datetime="1/07/2020 11:04 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-78.24" url="{node2}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-24.91"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-235.05" url="{node6}" customimagewidth="115" target="" fov="10" id="Point02" description="" distance3D="657.228" tilt="-24.83"/>
-      <hotspot title="Visual Arts" skinid="ht_info" pan="-26.13" url="" target="" id="Point03" description="Students can select from a range of subjects in the visual arts and in Year 12 develop their own artworks, culminating in a ‘body of work’.&#xa;&#xa;A range of Content Endorsed Courses are also available, including&#xa;Visual Design&#xa;Photo Video &amp; Digital Imaging&#xa;&#xa;&#xa;" tilt="7.04"/>
-      <hotspot title="ARTEXPRESS" skinid="ht_info" pan="-350.06" url="" target="" id="Point04" description="represents the high standards and diversity achieved by Year 12 Visual Arts students in New South Wales schools.&#xa;&#xa;See the video hotspot to view the nominations over the years.&#xa;&#xa;&#xa;&#xa;" tilt="5.62"/>
-      <hotspot title="Year 11 Art In Action" skinid="ht_video_youtube" pan="-18.03" url="RnfTH8dDss4" target="" id="Point05" description="" tilt="7.06"/>
-      <hotspot title="Yr 12 Visual Arts" skinid="ht_video_youtube" pan="-10.54" url="sUm_ZAz9b6I" target="" id="Point06" description="" tilt="7"/>
-      <hotspot title="ARTEXPRESS over the Years" skinid="ht_video_youtube" pan="-344.67" url="3Jw9dlRKtvc" target="" id="Point07" description="" tilt="5.63"/>
-      <hotspot title="Drama" skinid="ht_info" pan="-304.52" url="" target="" id="Point08" description="Each year there are many Higher School Certificate (HSC) showcases and exhibitions of student work. The OnSTAGE exhibition features exemplary individual projects by HSC Drama students. The Monster Within is an example of group work. " tilt="5.61"/>
-      <hotspot title="Drama Sample Work (Nomination)  - The Monster Within" skinid="ht_video_youtube" pan="-299.73" url="7wrpAS-i_qg" target="" id="Point09" description="" tilt="5.5"/>
-      <hotspot title="Music" skinid="ht_info" pan="-266.77" url="" target="" id="Point10" description="ENCORE is a program of outstanding performances and compositions by students from the HSC Music examinations.&#xa;This is a sample of our nominations in performance and composition.&#xa;&#xa;" tilt="6.03"/>
-      <hotspot title="ENCORE Nomination - Paul Wen" skinid="ht_video_youtube" pan="-266.76" url="I5lHDaJ3Wy0" target="" id="Point11" description="" tilt="-1.39"/>
-      <hotspot title="Music Room" skinid="ht_video_youtube" pan="-266.66" url="KHy7f6R9Rwo" target="" id="Point12" description="" tilt="13.3"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node8" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 11:04 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-78.24" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-24.91" use3D="1" description="" url="{node2}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-235.05" title="" customimage="media/SSCArrow3D-visited.png" id="Point02" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-24.83" use3D="1" description="" url="{node6}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-26.13" title="Visual Arts" id="Point03" tilt="7.04" description="Students can select from a range of subjects in the visual arts and in Year 12 develop their own artworks, culminating in a ‘body of work’.&#xa;&#xa;A range of Content Endorsed Courses are also available, including&#xa;Visual Design&#xa;Photo Video &amp; Digital Imaging&#xa;&#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_info" pan="-350.06" title="ArtExpress" id="Point04" tilt="5.62" description="ArtExpress represents the high standards and diversity achieved by Year 12 Visual Arts students in New South Wales schools.&#xa;&#xa;See the video hotspot to view the nominations over the years.&#xa;&#xa;&#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-18.03" title="Year 11 Art In Action" id="Point05" tilt="7.06" description="" url="RnfTH8dDss4"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-10.54" title="Yr 12 Visual Arts" id="Point06" tilt="7" description="" url="sUm_ZAz9b6I"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-344.67" title="ARTEXPRESS over the Years" id="Point07" tilt="5.63" description="" url="3Jw9dlRKtvc"/>
+      <hotspot target="" skinid="ht_info" pan="-304.52" title="Drama" id="Point08" tilt="5.61" description="Each year there are many Higher School Certificate (HSC) showcases and exhibitions of student work. The OnSTAGE exhibition features exemplary individual projects by HSC Drama students. 'The Monster Within' is an example of group work. " url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-299.73" title="Drama Sample Work (Nomination)  - The Monster Within" id="Point09" tilt="5.5" description="" url="7wrpAS-i_qg"/>
+      <hotspot target="" skinid="ht_info" pan="-266.77" title="Music" id="Point10" tilt="6.03" description="ENCORE is a program of outstanding performances and compositions by students from the HSC Music examinations.&#xa;This is a sample of our nominations in performance and composition.&#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-266.76" title="ENCORE Nomination - Paul Wen" id="Point11" tilt="-1.39" description="" url="I5lHDaJ3Wy0"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-266.66" title="Music Room" id="Point12" tilt="13.3" description="" url="KHy7f6R9Rwo"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node2">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3944" height="3944" levelingpitch="3" overlap="1" leveltilesize="510">
-      <level width="3944" height="3944" preload="0" predecode="0"/>
-      <level width="1972" height="1972" preload="0" predecode="0"/>
-      <level width="986" height="986" preload="0" predecode="0"/>
-      <level width="493" height="493" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3944" levelbias="0.400" levelbiashidpi="1.000" width="3944" levelingpitch="3" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3944" width="3944" preload="0" predecode="0"/>
+      <level height="1972" width="1972" preload="0" predecode="0"/>
+      <level height="986" width="986" preload="0" predecode="0"/>
+      <level height="493" width="493" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-14.4" fov="75" projection="4" tilt="-20.65"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-14.4" tilt="-20.65" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="Technology &amp; Applied Studies" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node2" heading="0" datetime="1/07/2020 11:19 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-11.94" url="{node5}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-28.43"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-92.13" url="{node8}" customimagewidth="115" target="" fov="10" id="Point02" description="" distance3D="657.228" tilt="-27.63"/>
-      <hotspot title="Technology &amp; Applied Studies" skinid="ht_info" pan="-346.22" url="" target="" id="Point03" description="Many of the courses offered in this faculty involve  a major design project. These subjects include, Design &amp; Technology, Industry Technology and&#xa;Textiles &amp; Design. Students develop skills in the design and production of a major project.&#xa;Other subjects offered by this faculty include, Food Technology,Information Processes and Technology and Software Design and Development&#xa;&#xa;" tilt="0.5"/>
-      <hotspot title="Multimedia Showcase" skinid="ht_video_youtube" pan="-59.65" url="khzC_NpKR_U" target="" id="Point04" description="" tilt="-4.74"/>
-      <hotspot title="Textiles &amp; Design" skinid="ht_video_youtube" pan="-130.13" url="-CVA7r-0H_4" target="" id="Point05" description="" tilt="6.65"/>
+    <userdata latitude="" heading="0" title="Technology &amp; Applied Studies" copyright="" comment="" author="" info="" nodeid="node2" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 11:19 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-11.94" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-28.43" use3D="1" description="" url="{node5}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-92.13" title="" customimage="media/SSCArrow3D-visited.png" id="Point02" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-27.63" use3D="1" description="" url="{node8}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-346.22" title="Technology &amp; Applied Studies" id="Point03" tilt="0.5" description="Many of the courses offered in this faculty involve a major design project. These subjects include, Design &amp; Technology, Industry Technology and Textiles &amp; Design. Students develop skills in the design and production of a major project.&#xa;Other subjects offered by this faculty include, Food Technology, Information Processes and Technology and Software Design and Development&#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-59.65" title="Multimedia Showcase" id="Point04" tilt="-4.74" description="" url="khzC_NpKR_U"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-130.13" title="Textiles &amp; Design" id="Point05" tilt="6.65" description="" url="-CVA7r-0H_4"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node7">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3977" height="3977" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3977" height="3977" preload="0" predecode="0"/>
-      <level width="1988" height="1988" preload="0" predecode="0"/>
-      <level width="994" height="994" preload="0" predecode="0"/>
-      <level width="497" height="497" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3977" levelbias="0.400" levelbiashidpi="1.000" width="3977" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3977" width="3977" preload="0" predecode="0"/>
+      <level height="1988" width="1988" preload="0" predecode="0"/>
+      <level height="994" width="994" preload="0" predecode="0"/>
+      <level height="497" width="497" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="75" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="0" tilt="0" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node7" heading="0" datetime="1/07/2020 9:44 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-350.77" url="{node5}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-27.03"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-141.96" url="{node2}" customimagewidth="115" target="" fov="10" id="Point02" description="" distance3D="657.228" tilt="-16.58"/>
-      <hotspot title="Textiles &amp; Design" skinid="ht_video_youtube" pan="-351.37" url="-CVA7r-0H_4" target="" id="Point03" description="" tilt="2.84"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node7" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 9:44 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-350.77" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-27.03" use3D="1" description="" url="{node5}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-141.96" title="" customimage="media/SSCArrow3D-visited.png" id="Point02" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-16.58" use3D="1" description="" url="{node2}" fov="10"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-351.37" title="Textiles &amp; Design" id="Point03" tilt="2.84" description="" url="-CVA7r-0H_4"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node5">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3971" height="3971" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3971" height="3971" preload="0" predecode="0"/>
-      <level width="1985" height="1985" preload="0" predecode="0"/>
-      <level width="992" height="992" preload="0" predecode="0"/>
-      <level width="496" height="496" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3971" levelbias="0.400" levelbiashidpi="1.000" width="3971" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3971" width="3971" preload="0" predecode="0"/>
+      <level height="1985" width="1985" preload="0" predecode="0"/>
+      <level height="992" width="992" preload="0" predecode="0"/>
+      <level height="496" width="496" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="54.17" fov="75" projection="4" tilt="-16.73"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="54.17" tilt="-16.73" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node5" heading="0" datetime="1/07/2020 11:26 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-264" url="{node10}" customimagewidth="116" target="" fov="10" id="Point02" description="" distance3D="662.943" tilt="-34.66"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-158.93" url="{node2}" customimagewidth="115" target="" fov="10" id="Point03" description="" distance3D="657.228" tilt="-29.07"/>
-      <hotspot title="Science Courses " skinid="ht_info" pan="-345.83" url="" target="" id="Point04" description="Students can choose from a range of Science based courses. The Year 11 and Year 12 course pattern must include &#xa;Nno more than 6 units of courses in Science&#xa;&#xa;Biology &#xa;Chemistry&#xa;Earth &amp; Environmental Science&#xa;Investigating Science&#xa;Physics&#xa;Marine  Studies&#xa;Science Extension (Year 12 only) " tilt="3.1"/>
-      <hotspot title="Science Extension" skinid="ht_video_youtube" pan="-292.9" url="haJfUMX0enQ" target="" id="Point05" description="" tilt="7.86"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node5" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 11:26 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-264" title="" customimage="media/SSCArrow3D.png" id="Point02" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-34.66" use3D="1" description="" url="{node10}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-158.93" title="" customimage="media/SSCArrow3D-visited.png" id="Point03" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-29.07" use3D="1" description="" url="{node2}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-345.83" title="Science Courses " id="Point04" tilt="3.1" description="Students can choose from a range of Science based courses. The Year 11 and Year 12 course pattern must include no more than 6 units of courses in Science&#xa;&#xa;Biology &#xa;Chemistry&#xa;Earth &amp; Environmental Science&#xa;Investigating Science&#xa;Physics&#xa;Marine Studies&#xa;Science Extension (Year 12 only) " url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-292.9" title="Science Extension" id="Point05" tilt="7.86" description="" url="haJfUMX0enQ"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node10">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="-3" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3973" height="3973" levelingpitch="4" overlap="1" leveltilesize="510">
-      <level width="3973" height="3973" preload="0" predecode="0"/>
-      <level width="1986" height="1986" preload="0" predecode="0"/>
-      <level width="993" height="993" preload="0" predecode="0"/>
-      <level width="496" height="496" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3973" levelbias="0.400" levelbiashidpi="1.000" width="3973" levelingpitch="4" overlap="1" leveltilesize="510" levelingroll="-3" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3973" width="3973" preload="0" predecode="0"/>
+      <level height="1986" width="1986" preload="0" predecode="0"/>
+      <level height="993" width="993" preload="0" predecode="0"/>
+      <level height="496" width="496" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-157.04" fov="75" projection="4" tilt="-3"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-157.04" tilt="-3" fov="75"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="Support Unit" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node10" heading="0" datetime="1/07/2020 10:43 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-177.71" url="{node9}" customimagewidth="116" target="" fov="10" id="Point01" description="" distance3D="662.943" tilt="-26.35"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-318.86" url="{node5}" customimagewidth="115" target="" fov="10" id="Point02" description="" distance3D="657.228" tilt="-26.92"/>
-      <hotspot title="Support Unit" skinid="ht_info" pan="-188.95" url="" target="" id="Point03" description="The school has a specialist Support Unit catering for the needs of students with an intellectual or physical MildorModerate Iis ability. Students in the Support Unit can access Life Skills courses as well as some mainstream classes.&#xa;" tilt="4.9"/>
-      <hotspot title="Support Unit" skinid="ht_video_youtube" pan="-104.1" url="bsa0msBgcFU" target="" id="Point04" description="" tilt="6.39"/>
+    <userdata latitude="" heading="0" title="Support Unit" copyright="" comment="" author="" info="" nodeid="node10" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 10:43 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-177.71" title="" customimage="media/SSCArrow3D.png" id="Point01" customimagewidth="116" customimageheight="94" distance3D="662.943" tilt="-26.35" use3D="1" description="" url="{node9}" fov="10"/>
+      <hotspot target="" skinid="ht_node" pan="-318.86" title="" customimage="media/SSCArrow3D-visited.png" id="Point02" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-26.92" use3D="1" description="" url="{node5}" fov="10"/>
+      <hotspot target="" skinid="ht_info" pan="-188.95" title="Support Unit" id="Point03" tilt="4.9" description="The school has a specialist Support Unit catering for the needs of students with an intellectual or physical mild or moderate disability. Students in the Support Unit can access Life Skills courses as well as some mainstream classes.&#xa;" url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-104.1" title="Support Unit" id="Point04" tilt="6.39" description="" url="bsa0msBgcFU"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <panorama id="node9">
-    <input levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" width="3962" height="3962" levelingpitch="0" overlap="1" leveltilesize="510">
-      <level width="3962" height="3962" preload="0" predecode="0"/>
-      <level width="1981" height="1981" preload="0" predecode="0"/>
-      <level width="990" height="990" preload="0" predecode="0"/>
-      <level width="495" height="495" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input height="3962" levelbias="0.400" levelbiashidpi="1.000" width="3962" levelingpitch="0" overlap="1" leveltilesize="510" levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="3962" width="3962" preload="0" predecode="0"/>
+      <level height="1981" width="1981" preload="0" predecode="0"/>
+      <level height="990" width="990" preload="0" predecode="0"/>
+      <level height="495" width="495" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-119.26" fov="75" projection="4" tilt="5.91"/>
-      <flyin pan="-111.29" fov="70" projection="4" tilt="5.12"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max pan="360" fov="120" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90"/>
+      <start projection="4" pan="-119.26" tilt="5.91" fov="75"/>
+      <flyin projection="4" pan="-111.29" tilt="5.12" fov="70"/>
+      <min pan="0" fovpixel="2" tilt="-90"/>
+      <max fovfisheye="360" pan="360" scaletofit="1" fovstereographic="270" tilt="90" fov="120"/>
     </view>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="Edited Panoramas" description="" nodeid="node9" heading="0" datetime="1/07/2020 11:41 AM" source="" info=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label backgroundalpha="1" textcolor="0x000000" borderradius="1" wordwrap="1" width="180" height="20" bordercolor="0x000000" background="1" borderalpha="1" backgroundcolor="0xffffff" textalpha="1" border="1" enabled="1"/>
-      <polystyle backgroundalpha="0.25098" handcursor="1" bordercolor="0x0000ff" borderalpha="1" backgroundcolor="0x0000ff" mode="0"/>
-      <hotspot customimage="media/SSCArrow3D-visited.png" title="" customimageheight="94" skinid="ht_node" use3D="1" pan="-42.31" url="{node10}" customimagewidth="115" target="" fov="10" id="Point01" description="" distance3D="657.228" tilt="-12.38"/>
-      <hotspot title="Selecting Subjects" skinid="ht_video_youtube" pan="-122.85" url="YLqNI-gu1po" target="" id="Point02" description="" tilt="18.03"/>
-      <hotspot title="Student Enrichment" skinid="ht_info" pan="-321.15" url="" target="" id="Point03" description="Senior students are encouraged to be involved in a range of programs which will develop life long skills required by future employers and tertiary education. " tilt="7.16"/>
-      <hotspot title="Programs" skinid="ht_info" pan="-327.79" url="" target="" id="Point04" description="Programs include:&#xa;Ambassadors &#xa;SRC&#xa;Social Justice Team&#xa;Environment Team &#xa;Indiginous Team&#xa;International &#xa;Sporting Teams, including Knockout Competitions and Recreational Sports. Students assist management of teams and in the refereeing of games. They also assist the Sports Coordinator at college carnivals. " tilt="7.77"/>
-      <hotspot title="Extra Curriculars" skinid="ht_video_youtube" pan="-195.02" url="LoJRg5JLar4" target="" id="Point05" description="" tilt="15.16"/>
-      <hotspot title="Subject Selection" skinid="ht_url" pan="-118.29" url="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/hsc/subject-selection" target="_blank" id="Point06" description="" tilt="12.64"/>
-      <hotspot title="Blackwattle Bay Website Enrolment" skinid="ht_url" pan="-127.63" url="https://sscbwattle-h.schools.nsw.gov.au/about-our-school/enrolment.html" target="_blank" id="Point07" description="" tilt="13.02"/>
-      <hotspot title="Major events and Well Being Days" skinid="ht_info" pan="-334.91" url="" target="" id="Point08" description="Our senior students are involved in the organisation of a number of Major Events in the school calendar. International Women’s Day, Anzac Day,Remembrance Day, Naidoc Celebrations and Wear it Purple Day. Keynote speakers are  invited to address the school audience. Diversity Day and Splendour@the Bay are two events held throughout the year to focus on student well being. These days are an opportunity for senior students to relax and enjoy the company of their friends and teachers whilst participating in a range of activities including Giant Chess, Basketball, Darts, Bocce, Tug of War &amp; European Handball. The school also holds its annual Talent Quest on Diversity Day. &#xa;&#xa;" tilt="7.65"/>
-      <hotspot title="" skinid="ht_image" pan="-311.62" url="images/CleanUp.jpg" target="" id="Point09" description="" tilt="-0.6"/>
-      <hotspot title="" skinid="ht_image" pan="-343.58" url="images/CleanUp.jpg" target="" id="Point10" description="" tilt="-0.15"/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="node9" longitude="" customnodeid="" tags="Edited Panoramas" description="" datetime="1/07/2020 11:41 AM" source=""/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label bordercolor="0x000000" height="20" borderradius="1" enabled="1" borderalpha="1" border="1" width="180" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" background="1" textcolor="0x000000" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" borderalpha="1" handcursor="1" backgroundcolor="0x0000ff" mode="0" backgroundalpha="0.25098"/>
+      <hotspot target="" skinid="ht_node" pan="-42.31" title="" customimage="media/SSCArrow3D-visited.png" id="Point01" customimagewidth="115" customimageheight="94" distance3D="657.228" tilt="-12.38" use3D="1" description="" url="{node10}" fov="10"/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-122.85" title="Selecting Subjects" id="Point02" tilt="18.03" description="" url="YLqNI-gu1po"/>
+      <hotspot target="" skinid="ht_info" pan="-321.15" title="Student Enrichment" id="Point03" tilt="7.16" description="Senior students are encouraged to be involved in a range of programs which will develop life long skills required by future employers and tertiary education. " url=""/>
+      <hotspot target="" skinid="ht_info" pan="-327.79" title="Programs" id="Point04" tilt="7.77" description="Programs include:&#xa;Ambassadors &#xa;SRC&#xa;Social Justice Team&#xa;Environment Team &#xa;Indigenous Team&#xa;JAM Club&#xa;Saga Club&#xa;International Sporting Teams, including Knockout Competitions and Recreational Sports. Students assist management of teams and in the refereeing of games. They also assist the Sports Coordinator at college carnivals. " url=""/>
+      <hotspot target="" skinid="ht_video_youtube" pan="-195.02" title="Extra Curriculars" id="Point05" tilt="15.16" description="" url="LoJRg5JLar4"/>
+      <hotspot target="_blank" skinid="ht_url" pan="-118.29" title="Subject Selection" id="Point06" tilt="12.64" description="" url="https://educationstandards.nsw.edu.au/wps/portal/nesa/11-12/hsc/subject-selection"/>
+      <hotspot target="_blank" skinid="ht_url" pan="-127.63" title="Blackwattle Bay Website Enrolment" id="Point07" tilt="13.02" description="" url="https://sscbwattle-h.schools.nsw.gov.au/about-our-school/enrolment.html"/>
+      <hotspot target="" skinid="ht_info" pan="-334.91" title="Major Events and Wellbeing Days" id="Point08" tilt="7.65" description="Our senior students are involved in the organisation of a number of Major Events in the school calendar. International Women’s Day, Anzac Day, Remembrance Day, Naidoc Celebrations and Wear it Purple Day. Keynote speakers are invited to address the school audience. Diversity Day and Splendour@the Bay are two events held throughout the year to focus on student well being. These days are an opportunity for senior students to relax and enjoy the company of their friends and teachers whilst participating in a range of activities including Giant Chess, Basketball, Darts, Bocce, Tug of War &amp; European Handball. The school also holds its annual Talent Quest on Diversity Day. &#xa;&#xa;" url=""/>
+      <hotspot target="" skinid="ht_image" pan="-311.62" title="" id="Point09" tilt="-0.6" description="" url="images/CleanUp.jpg"/>
+      <hotspot target="" skinid="ht_image" pan="-343.58" title="" id="Point10" tilt="-0.15" description="" url="images/CleanUp.jpg"/>
     </hotspots>
     <media>
-      <lensflare pan="-87.600" type="1" id="Lensflare01" color="0xffffff" blinding="50.000" alpha="80.000" tilt="32.090"/>
+      <lensflare alpha="80.000" pan="-87.600" blinding="50.000" color="0xffffff" type="1" id="Lensflare01" tilt="32.090"/>
     </media>
-    <transition zoomoutpause="0" softedge="0" blendtime="1" zoomafterinfov="90" type="crossdissolve" zoomout="2" zoomfov="20" blendcolor="0x000000" zoomspeed="2" zoomin="2" enabled="1" zoomafteroutfov="20"/>
-    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-    <control dblclickfullscreen="0" lockedmouse="0" speedwheel="1" lockedkeyboard="0" lockedkeyboardzoom="0" invertwheel="0" rubberband="0" contextfullscreen="1" simulatemass="1" sensitivity="8" invertcontrol="1" hideabout="0" lockedwheel="0" contextprojections="0"/>
+    <transition blendcolor="0x000000" blendtime="1" enabled="1" type="crossdissolve" softedge="0" zoomin="2" zoomafterinfov="90" zoomout="2" zoomspeed="2" zoomfov="20" zoomoutpause="0" zoomafteroutfov="20"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" invertwheel="0" sensitivity="8" rubberband="0" contextfullscreen="1" hideabout="0" lockedkeyboard="0" lockedkeyboardzoom="0" lockedmouse="0" simulatemass="1" dblclickfullscreen="0" speedwheel="1" lockedwheel="0"/>
   </panorama>
   <masternode>
-    <userdata title="" comment="" copyright="" author="" latitude="" longitude="" customnodeid="" tags="" description="" nodeid="master" heading="0" datetime="" source="" info=""/>
+    <userdata latitude="" heading="0" title="" copyright="" comment="" author="" info="" nodeid="master" longitude="" customnodeid="" tags="" description="" datetime="" source=""/>
   </masternode>
 </tour>
