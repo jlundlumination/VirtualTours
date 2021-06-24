@@ -117,7 +117,7 @@
     <hotspots width="180" wordwrap="1" height="20">
       <label borderalpha="1" borderradius="1" bordercolor="0x000000" background="1" textalpha="1" width="180" textcolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" height="20"/>
       <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot description="" target="" pan="-169.95" url="{node10}" tilt="2.76" title="Foundation/Lower Primary" id="Point01" skinid="Hotspot 1"/>
+      <hotspot description="" target="" pan="-169.95" url="{node10}" tilt="2.76" title="Foundation / Lower Primary" id="Point01" skinid="Hotspot 1"/>
     </hotspots>
     <media/>
     <transition zoomin="2" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomafterinfov="90" softedge="0" zoomout="2" zoomfov="20" enabled="1" blendtime="1" zoomafteroutfov="20" zoomoutpause="0"/>
@@ -138,7 +138,7 @@
       <min pan="-180" fovpixel="2" tilt="-47.3146"/>
       <max fovstereographic="270" pan="180" tilt="47.3146" fov="120" fovfisheye="360"/>
     </view>
-    <userdata tags="Photoshopped" latitude="" info="" comment="" description="Foundation Learning Spaces&#xa;Our Foundation area has 4 Learning Spaces.  Each Learning Group has their own designated space." nodeid="node10" title="Foundation/Lower Primary" datetime="16/10/2017 7:36 PM" source="" customnodeid="" author="" longitude="" copyright="" heading="0"/>
+    <userdata tags="Photoshopped" latitude="" info="" comment="" description="Foundation Learning Spaces&#xa;Our Foundation area has 4 Learning Spaces.  Each Learning Group has their own designated space." nodeid="node10" title="Foundation / Lower Primary" datetime="16/10/2017 7:36 PM" source="" customnodeid="" author="" longitude="" copyright="" heading="0"/>
     <hotspots width="180" wordwrap="1" height="20">
       <label borderalpha="1" borderradius="1" bordercolor="0x000000" background="1" textalpha="1" width="180" textcolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" height="20"/>
       <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
@@ -242,7 +242,7 @@
     <hotspots width="180" wordwrap="1" height="20">
       <label borderalpha="1" borderradius="1" bordercolor="0x000000" background="1" textalpha="1" width="180" textcolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" height="20"/>
       <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
-      <hotspot description="" target="" pan="-319.17" url="{node5}" tilt="0.65" title="MIddle/Senior Building Multi Purpose Area" id="Point01" skinid="Hotspot 1"/>
+      <hotspot description="" target="" pan="-319.17" url="{node5}" tilt="0.65" title="Middle/Senior Building Multi Purpose Area" id="Point01" skinid="Hotspot 1"/>
     </hotspots>
     <media/>
     <transition zoomin="2" blendcolor="0x000000" zoomspeed="2" type="crossdissolve" zoomafterinfov="90" softedge="0" zoomout="2" zoomfov="20" enabled="1" blendtime="1" zoomafteroutfov="20" zoomoutpause="0"/>
@@ -263,7 +263,7 @@
       <min pan="-180" fovpixel="2" tilt="-45.2411"/>
       <max fovstereographic="270" pan="180" tilt="45.2411" fov="120" fovfisheye="360"/>
     </view>
-    <userdata tags="Photoshopped" latitude="" info="" comment="" description="Multi Purpose Space&#xa;Area that has a variety of uses - small groups, cooking, science. The area is also used for our Cooking Club" nodeid="node5" title="MIddle/Senior Building Multi Purpose Area" datetime="16/10/2017 7:04 PM" source="" customnodeid="" author="" longitude="" copyright="" heading="0"/>
+    <userdata tags="Photoshopped" latitude="" info="" comment="" description="Multi Purpose Space&#xa;Area that has a variety of uses - small groups, cooking, science. The area is also used for our Cooking Club" nodeid="node5" title="Middle/Senior Building Multi Purpose Area" datetime="16/10/2017 7:04 PM" source="" customnodeid="" author="" longitude="" copyright="" heading="0"/>
     <hotspots width="180" wordwrap="1" height="20">
       <label borderalpha="1" borderradius="1" bordercolor="0x000000" background="1" textalpha="1" width="180" textcolor="0x000000" border="1" wordwrap="1" backgroundcolor="0xffffff" enabled="1" backgroundalpha="1" height="20"/>
       <polystyle borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1"/>
