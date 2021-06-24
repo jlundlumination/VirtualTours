@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: StClares.ggsk
-// Generated 2021-06-24T14:53:47
+// Generated 2021-06-24T15:08:56
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
@@ -23527,7 +23527,7 @@ function pano2vrSkin(player,base) {
 		hs+='left: 0px;';
 		hs+='bottom:  0px;';
 		hs+='width: 96px;';
-		hs+='height: 18px;';
+		hs+='height: auto;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
 		hs+='font-size: 11px;';
