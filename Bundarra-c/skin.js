@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: Bundarra.ggsk
-// Generated 2021-06-25T11:37:53
+// Generated 2021-06-25T11:43:35
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
