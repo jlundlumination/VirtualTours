@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: Braemar.ggsk
-// Generated 2021-07-08T10:28:13
+// Generated 2021-07-08T10:39:26
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, false);
@@ -12412,27 +12412,6 @@ function pano2vrSkin(player,base) {
 			me._instructions0.style[domTransition]='none';
 			me._instructions0.style.visibility='hidden';
 			me._instructions0.ggVisible=false;
-			if (me._welcome.ggApiPlayer) {
-				if (me._welcome.ggApiPlayerType == 'youtube') {
-					let youtubeMediaFunction = function() {
-						me._welcome.ggApiPlayer.playVideo();
-					};
-					if (me._welcome.ggApiPlayerReady) {
-						youtubeMediaFunction();
-					} else {
-						let youtubeApiInterval = setInterval(function() {
-							if (me._welcome.ggApiPlayerReady) {
-								clearInterval(youtubeApiInterval);
-								youtubeMediaFunction();
-							}
-						}, 100);
-					}
-				} else if (me._welcome.ggApiPlayerType == 'vimeo') {
-					me._welcome.ggApiPlayer.play();
-				}
-			} else {
-				player.playSound("Welcome","1");
-			}
 		}
 		me._rectangle_1.onmouseover=function (e) {
 			me.elementMouseOver['rectangle_1']=true;
@@ -12690,6 +12669,7 @@ function pano2vrSkin(player,base) {
 				}
 				else {
 					me._welcome.style.visibility="hidden";
+					me._welcome.ggInitMedia('');
 					me._welcome.ggVisible=false;
 				}
 			}
@@ -13109,6 +13089,7 @@ function pano2vrSkin(player,base) {
 				}
 				else {
 					me._middle.style.visibility="hidden";
+					me._middle.ggInitMedia('');
 					me._middle.ggVisible=false;
 				}
 			}
@@ -13528,6 +13509,7 @@ function pano2vrSkin(player,base) {
 				}
 				else {
 					me._senior.style.visibility="hidden";
+					me._senior.ggInitMedia('');
 					me._senior.ggVisible=false;
 				}
 			}
